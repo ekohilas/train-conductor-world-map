@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Starting Loop",
+        "points": 1000,
+        "locations": [
+            "Rotterdam",
+            "Mons",
+            "Bruges"
+        ]
+    },
+    {
+        "name": "German Interior",
+        "points": 3000,
+        "locations": [
+            "Hamburg",
+            "Berlin",
+            "Bastei",
+            "Stuttgart",
+            "Cologne"
+        ]
+    },
+    {
+        "name": "French Connection",
+        "points": 4000,
+        "locations": [
+            "Paris",
+            "Lyon",
+            "Verdon",
+            "Marseille",
+            "Millau"
+        ]
+    },
+    {
+        "name": "Bridge Friends",
+        "points": 6000,
+        "locations": [
+            "London",
+            "Bastei",
+            "Prague",
+            "Millau"
+        ]
+    },
+    {
+        "name": "The Ports",
+        "points": 7000,
+        "locations": [
+            "Grimsby",
+            "Rotterdam",
+            "Hamburg",
+            "Stuttgart",
+            "Marseille",
+            "Dijon"
+        ]
+    },
+    {
+        "name": "Capital Trail",
+        "points": 9000,
+        "locations": [
+            "Edingburgh",
+            "Amsterdam",
+            "Copenhagen",
+            "Berlin",
+            "Warsaw",
+            "Prague",
+            "Paris",
+            "London"
+        ]
+    },
+    {
+        "name": "North Sea Circle",
+        "points": 10000,
+        "locations": [
+            "Edingburgh",
+            "Gothenburg",
+            "Copenhagen",
+            "Hamburg",
+            "Amsterdam",
+            "Rotterdam",
+            "Bruges",
+            "London",
+            "Grimsby"
+        ]
+    }
+]
