@@ -6,319 +6,319 @@
  <tileset firstgid="1" name="map" tilewidth="64" tileheight="64" tilecount="40" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="64" height="64" source="tiles/000-environment-00-cloud.png"/>
+   <image width="64" height="64" source="tiles/000-environment-000-cloud.png"/>
   </tile>
   <tile id="1">
-   <image width="64" height="64" source="tiles/001-environment-01-sparse-water.png"/>
+   <image width="64" height="64" source="tiles/001-environment-001-sparse-water.png"/>
   </tile>
   <tile id="2">
-   <image width="64" height="64" source="tiles/002-environment-02-dense-water.png"/>
+   <image width="64" height="64" source="tiles/002-environment-002-dense-water.png"/>
   </tile>
   <tile id="3">
-   <image width="64" height="64" source="tiles/003-environment-03-sparse-grass.png"/>
+   <image width="64" height="64" source="tiles/003-environment-003-sparse-grass.png"/>
   </tile>
   <tile id="4">
-   <image width="64" height="64" source="tiles/004-environment-04-sparse-grass.png"/>
+   <image width="64" height="64" source="tiles/004-environment-004-sparse-grass.png"/>
   </tile>
   <tile id="5">
-   <image width="64" height="64" source="tiles/005-environment-05-dense-grass.png"/>
+   <image width="64" height="64" source="tiles/005-environment-005-dense-grass.png"/>
   </tile>
   <tile id="6">
-   <image width="64" height="64" source="tiles/006-environment-06-dense-grass.png"/>
+   <image width="64" height="64" source="tiles/006-environment-006-dense-grass.png"/>
   </tile>
   <tile id="7">
-   <image width="64" height="64" source="tiles/007-environment-07-sparse-forest.png"/>
+   <image width="64" height="64" source="tiles/007-environment-007-sparse-forest.png"/>
   </tile>
   <tile id="8">
-   <image width="64" height="64" source="tiles/008-environment-08-dense-forest.png"/>
+   <image width="64" height="64" source="tiles/008-environment-008-dense-forest.png"/>
   </tile>
   <tile id="9">
-   <image width="64" height="64" source="tiles/009-environment-09-sparse-mountain.png"/>
+   <image width="64" height="64" source="tiles/009-environment-009-sparse-mountain.png"/>
   </tile>
   <tile id="10">
-   <image width="64" height="64" source="tiles/010-environment-10-dense-mountain.png"/>
+   <image width="64" height="64" source="tiles/010-environment-010-dense-mountain.png"/>
   </tile>
   <tile id="11">
-   <image width="64" height="64" source="tiles/011-location-00-city-amsterdam.png"/>
+   <image width="64" height="64" source="tiles/011-location-000-city-amsterdam.png"/>
   </tile>
   <tile id="12">
-   <image width="64" height="64" source="tiles/012-location-01-city-bastei.png"/>
+   <image width="64" height="64" source="tiles/012-location-001-city-bastei.png"/>
   </tile>
   <tile id="13">
-   <image width="64" height="64" source="tiles/013-location-02-city-belfast.png"/>
+   <image width="64" height="64" source="tiles/013-location-002-city-belfast.png"/>
   </tile>
   <tile id="14">
-   <image width="64" height="64" source="tiles/014-location-03-city-berlin.png"/>
+   <image width="64" height="64" source="tiles/014-location-003-city-berlin.png"/>
   </tile>
   <tile id="15">
-   <image width="64" height="64" source="tiles/015-location-04-city-bernina.png"/>
+   <image width="64" height="64" source="tiles/015-location-004-city-bernina.png"/>
   </tile>
   <tile id="16">
-   <image width="64" height="64" source="tiles/016-location-05-city-bruges.png"/>
+   <image width="64" height="64" source="tiles/016-location-005-city-bruges.png"/>
   </tile>
   <tile id="17">
-   <image width="64" height="64" source="tiles/017-location-06-city-budapest.png"/>
+   <image width="64" height="64" source="tiles/017-location-006-city-budapest.png"/>
   </tile>
   <tile id="18">
-   <image width="64" height="64" source="tiles/018-location-07-city-cologne.png"/>
+   <image width="64" height="64" source="tiles/018-location-007-city-cologne.png"/>
   </tile>
   <tile id="19">
-   <image width="64" height="64" source="tiles/019-location-08-city-copenhagen.png"/>
+   <image width="64" height="64" source="tiles/019-location-008-city-copenhagen.png"/>
   </tile>
   <tile id="20">
-   <image width="64" height="64" source="tiles/020-location-09-city-edingburgh.png"/>
+   <image width="64" height="64" source="tiles/020-location-009-city-edinburgh.png"/>
   </tile>
   <tile id="21">
-   <image width="64" height="64" source="tiles/021-location-10-city-florence.png"/>
+   <image width="64" height="64" source="tiles/021-location-010-city-florence.png"/>
   </tile>
   <tile id="22">
-   <image width="64" height="64" source="tiles/022-location-11-city-gothenburg.png"/>
+   <image width="64" height="64" source="tiles/022-location-011-city-gothenburg.png"/>
   </tile>
   <tile id="23">
-   <image width="64" height="64" source="tiles/023-location-12-city-london.png"/>
+   <image width="64" height="64" source="tiles/023-location-012-city-london.png"/>
   </tile>
   <tile id="24">
-   <image width="64" height="64" source="tiles/024-location-13-city-lyon.png"/>
+   <image width="64" height="64" source="tiles/024-location-013-city-lyon.png"/>
   </tile>
   <tile id="25">
-   <image width="64" height="64" source="tiles/025-location-14-city-madrid.png"/>
+   <image width="64" height="64" source="tiles/025-location-014-city-madrid.png"/>
   </tile>
   <tile id="26">
-   <image width="64" height="64" source="tiles/026-location-15-city-matterhron.png"/>
+   <image width="64" height="64" source="tiles/026-location-015-city-matterhorn.png"/>
   </tile>
   <tile id="27">
-   <image width="64" height="64" source="tiles/027-location-16-city-millau.png"/>
+   <image width="64" height="64" source="tiles/027-location-016-city-millau.png"/>
   </tile>
   <tile id="28">
-   <image width="64" height="64" source="tiles/028-location-17-city-mons.png"/>
+   <image width="64" height="64" source="tiles/028-location-017-city-mons.png"/>
   </tile>
   <tile id="29">
-   <image width="64" height="64" source="tiles/029-location-18-city-mostar.png"/>
+   <image width="64" height="64" source="tiles/029-location-018-city-mostar.png"/>
   </tile>
   <tile id="30">
-   <image width="64" height="64" source="tiles/030-location-19-city-paris.png"/>
+   <image width="64" height="64" source="tiles/030-location-019-city-paris.png"/>
   </tile>
   <tile id="31">
-   <image width="64" height="64" source="tiles/031-location-20-city-prague.png"/>
+   <image width="64" height="64" source="tiles/031-location-020-city-prague.png"/>
   </tile>
   <tile id="32">
-   <image width="64" height="64" source="tiles/032-location-21-city-verdon.png"/>
+   <image width="64" height="64" source="tiles/032-location-021-city-verdon.png"/>
   </tile>
   <tile id="33">
-   <image width="64" height="64" source="tiles/033-location-22-city-warsaw.png"/>
+   <image width="64" height="64" source="tiles/033-location-022-city-warsaw.png"/>
   </tile>
   <tile id="34">
-   <image width="64" height="64" source="tiles/034-location-23-port-dijon.png"/>
+   <image width="64" height="64" source="tiles/034-location-023-port-dijon.png"/>
   </tile>
   <tile id="35">
-   <image width="64" height="64" source="tiles/035-location-24-port-grimsby.png"/>
+   <image width="64" height="64" source="tiles/035-location-024-port-grimsby.png"/>
   </tile>
   <tile id="36">
-   <image width="64" height="64" source="tiles/036-location-25-port-hamburg.png"/>
+   <image width="64" height="64" source="tiles/036-location-025-port-hamburg.png"/>
   </tile>
   <tile id="37">
-   <image width="64" height="64" source="tiles/037-location-26-port-marseille.png"/>
+   <image width="64" height="64" source="tiles/037-location-026-port-marseille.png"/>
   </tile>
   <tile id="38">
-   <image width="64" height="64" source="tiles/038-location-27-port-rotterdam.png"/>
+   <image width="64" height="64" source="tiles/038-location-027-port-rotterdam.png"/>
   </tile>
   <tile id="39">
-   <image width="64" height="64" source="tiles/039-location-28-port-stuttgart.png"/>
+   <image width="64" height="64" source="tiles/039-location-028-port-stuttgart.png"/>
   </tile>
  </tileset>
  <tileset firstgid="41" name="tracks" tilewidth="64" tileheight="64" tilecount="64" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="64" height="64" source="tiles/040-track-00-wood-vertical.png"/>
+   <image width="64" height="64" source="tiles/040-track-000-wood-vertical.png"/>
   </tile>
   <tile id="1">
-   <image width="64" height="64" source="tiles/041-track-01-wood-horizontal.png"/>
+   <image width="64" height="64" source="tiles/041-track-001-wood-horizontal.png"/>
   </tile>
   <tile id="2">
-   <image width="64" height="64" source="tiles/042-track-02-wood-up_and_right.png"/>
+   <image width="64" height="64" source="tiles/042-track-002-wood-up_and_right.png"/>
   </tile>
   <tile id="3">
-   <image width="64" height="64" source="tiles/043-track-03-wood-down_and_left.png"/>
+   <image width="64" height="64" source="tiles/043-track-003-wood-down_and_left.png"/>
   </tile>
   <tile id="4">
-   <image width="64" height="64" source="tiles/044-track-04-wood-down_and_right.png"/>
+   <image width="64" height="64" source="tiles/044-track-004-wood-down_and_right.png"/>
   </tile>
   <tile id="5">
-   <image width="64" height="64" source="tiles/045-track-05-wood-up_and_left.png"/>
+   <image width="64" height="64" source="tiles/045-track-005-wood-up_and_left.png"/>
   </tile>
   <tile id="6">
-   <image width="64" height="64" source="tiles/046-track-06-iron-vertical.png"/>
+   <image width="64" height="64" source="tiles/046-track-006-iron-vertical.png"/>
   </tile>
   <tile id="7">
-   <image width="64" height="64" source="tiles/047-track-07-iron-horizontal.png"/>
+   <image width="64" height="64" source="tiles/047-track-007-iron-horizontal.png"/>
   </tile>
   <tile id="8">
-   <image width="64" height="64" source="tiles/048-track-08-iron-up_and_right.png"/>
+   <image width="64" height="64" source="tiles/048-track-008-iron-up_and_right.png"/>
   </tile>
   <tile id="9">
-   <image width="64" height="64" source="tiles/049-track-09-iron-down_and_left.png"/>
+   <image width="64" height="64" source="tiles/049-track-009-iron-down_and_left.png"/>
   </tile>
   <tile id="10">
-   <image width="64" height="64" source="tiles/050-track-10-iron-down_and_right.png"/>
+   <image width="64" height="64" source="tiles/050-track-010-iron-down_and_right.png"/>
   </tile>
   <tile id="11">
-   <image width="64" height="64" source="tiles/051-track-11-iron-up_and_left.png"/>
+   <image width="64" height="64" source="tiles/051-track-011-iron-up_and_left.png"/>
   </tile>
   <tile id="12">
-   <image width="64" height="64" source="tiles/052-track-12-iron-right_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/052-track-012-iron-right_and_left_up.png"/>
   </tile>
   <tile id="13">
-   <image width="64" height="64" source="tiles/053-track-13-iron-left_and_right_down.png"/>
+   <image width="64" height="64" source="tiles/053-track-013-iron-left_and_right_down.png"/>
   </tile>
   <tile id="14">
-   <image width="64" height="64" source="tiles/054-track-14-iron-right_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/054-track-014-iron-right_and_left_down.png"/>
   </tile>
   <tile id="15">
-   <image width="64" height="64" source="tiles/055-track-15-iron-left_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/055-track-015-iron-left_and_right_up.png"/>
   </tile>
   <tile id="16">
-   <image width="64" height="64" source="tiles/056-track-16-iron-down_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/056-track-016-iron-down_and_right_up.png"/>
   </tile>
   <tile id="17">
-   <image width="64" height="64" source="tiles/057-track-17-iron-up_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/057-track-017-iron-up_and_left_down.png"/>
   </tile>
   <tile id="18">
-   <image width="64" height="64" source="tiles/058-track-18-iron-up_and_right_down.png"/>
+   <image width="64" height="64" source="tiles/058-track-018-iron-up_and_right_down.png"/>
   </tile>
   <tile id="19">
-   <image width="64" height="64" source="tiles/059-track-19-iron-down_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/059-track-019-iron-down_and_left_up.png"/>
   </tile>
   <tile id="20">
-   <image width="64" height="64" source="tiles/060-track-20-iron-right_and_vertical.png"/>
+   <image width="64" height="64" source="tiles/060-track-020-iron-right_and_vertical.png"/>
   </tile>
   <tile id="21">
-   <image width="64" height="64" source="tiles/061-track-21-iron-down_and_horizontal.png"/>
+   <image width="64" height="64" source="tiles/061-track-021-iron-down_and_horizontal.png"/>
   </tile>
   <tile id="22">
-   <image width="64" height="64" source="tiles/062-track-22-iron-up_and_horizontal.png"/>
+   <image width="64" height="64" source="tiles/062-track-022-iron-up_and_horizontal.png"/>
   </tile>
   <tile id="23">
-   <image width="64" height="64" source="tiles/063-track-23-iron-left_and_vertical.png"/>
+   <image width="64" height="64" source="tiles/063-track-023-iron-left_and_vertical.png"/>
   </tile>
   <tile id="24">
-   <image width="64" height="64" source="tiles/064-track-24-alloy-vertical.png"/>
+   <image width="64" height="64" source="tiles/064-track-024-alloy-vertical.png"/>
   </tile>
   <tile id="25">
-   <image width="64" height="64" source="tiles/065-track-25-alloy-horizontal.png"/>
+   <image width="64" height="64" source="tiles/065-track-025-alloy-horizontal.png"/>
   </tile>
   <tile id="26">
-   <image width="64" height="64" source="tiles/066-track-26-alloy-up_and_right.png"/>
+   <image width="64" height="64" source="tiles/066-track-026-alloy-up_and_right.png"/>
   </tile>
   <tile id="27">
-   <image width="64" height="64" source="tiles/067-track-27-alloy-down_and_left.png"/>
+   <image width="64" height="64" source="tiles/067-track-027-alloy-down_and_left.png"/>
   </tile>
   <tile id="28">
-   <image width="64" height="64" source="tiles/068-track-28-alloy-down_and_right.png"/>
+   <image width="64" height="64" source="tiles/068-track-028-alloy-down_and_right.png"/>
   </tile>
   <tile id="29">
-   <image width="64" height="64" source="tiles/069-track-29-alloy-up_and_left.png"/>
+   <image width="64" height="64" source="tiles/069-track-029-alloy-up_and_left.png"/>
   </tile>
   <tile id="30">
-   <image width="64" height="64" source="tiles/070-track-30-alloy-right_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/070-track-030-alloy-right_and_left_up.png"/>
   </tile>
   <tile id="31">
-   <image width="64" height="64" source="tiles/071-track-31-alloy-left_and_right_down.png"/>
+   <image width="64" height="64" source="tiles/071-track-031-alloy-left_and_right_down.png"/>
   </tile>
   <tile id="32">
-   <image width="64" height="64" source="tiles/072-track-32-alloy-right_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/072-track-032-alloy-right_and_left_down.png"/>
   </tile>
   <tile id="33">
-   <image width="64" height="64" source="tiles/073-track-33-alloy-left_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/073-track-033-alloy-left_and_right_up.png"/>
   </tile>
   <tile id="34">
-   <image width="64" height="64" source="tiles/074-track-34-alloy-down_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/074-track-034-alloy-down_and_right_up.png"/>
   </tile>
   <tile id="35">
-   <image width="64" height="64" source="tiles/075-track-35-alloy-up_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/075-track-035-alloy-up_and_left_down.png"/>
   </tile>
   <tile id="36">
-   <image width="64" height="64" source="tiles/076-track-36-alloy-up_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/076-track-036-alloy-up_and_right_up.png"/>
   </tile>
   <tile id="37">
-   <image width="64" height="64" source="tiles/077-track-37-alloy-down_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/077-track-037-alloy-down_and_left_up.png"/>
   </tile>
   <tile id="38">
-   <image width="64" height="64" source="tiles/078-track-38-alloy-vertical_and_right.png"/>
+   <image width="64" height="64" source="tiles/078-track-038-alloy-vertical_and_right.png"/>
   </tile>
   <tile id="39">
-   <image width="64" height="64" source="tiles/079-track-39-alloy-horizontal_and_down.png"/>
+   <image width="64" height="64" source="tiles/079-track-039-alloy-horizontal_and_down.png"/>
   </tile>
   <tile id="40">
-   <image width="64" height="64" source="tiles/080-track-40-alloy-horizontal_and_up.png"/>
+   <image width="64" height="64" source="tiles/080-track-040-alloy-horizontal_and_up.png"/>
   </tile>
   <tile id="41">
-   <image width="64" height="64" source="tiles/081-track-41-alloy-vertical_and_left.png"/>
+   <image width="64" height="64" source="tiles/081-track-041-alloy-vertical_and_left.png"/>
   </tile>
   <tile id="42">
-   <image width="64" height="64" source="tiles/082-track-42-transparent-vertical.png"/>
+   <image width="64" height="64" source="tiles/082-track-042-transparent-vertical.png"/>
   </tile>
   <tile id="43">
-   <image width="64" height="64" source="tiles/083-track-43-transparent-horizontal.png"/>
+   <image width="64" height="64" source="tiles/083-track-043-transparent-horizontal.png"/>
   </tile>
   <tile id="44">
-   <image width="64" height="64" source="tiles/084-track-44-transparent-up_and_right.png"/>
+   <image width="64" height="64" source="tiles/084-track-044-transparent-up_and_right.png"/>
   </tile>
   <tile id="45">
-   <image width="64" height="64" source="tiles/085-track-45-transparent-down_and_left.png"/>
+   <image width="64" height="64" source="tiles/085-track-045-transparent-down_and_left.png"/>
   </tile>
   <tile id="46">
-   <image width="64" height="64" source="tiles/086-track-46-transparent-down_and_right.png"/>
+   <image width="64" height="64" source="tiles/086-track-046-transparent-down_and_right.png"/>
   </tile>
   <tile id="47">
-   <image width="64" height="64" source="tiles/087-track-47-transparent-up_and_left.png"/>
+   <image width="64" height="64" source="tiles/087-track-047-transparent-up_and_left.png"/>
   </tile>
   <tile id="48">
-   <image width="64" height="64" source="tiles/088-track-48-transparent-right_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/088-track-048-transparent-right_and_left_up.png"/>
   </tile>
   <tile id="49">
-   <image width="64" height="64" source="tiles/089-track-49-transparent-left_and_right_down.png"/>
+   <image width="64" height="64" source="tiles/089-track-049-transparent-left_and_right_down.png"/>
   </tile>
   <tile id="50">
-   <image width="64" height="64" source="tiles/090-track-50-transparent-right_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/090-track-050-transparent-right_and_left_down.png"/>
   </tile>
   <tile id="51">
-   <image width="64" height="64" source="tiles/091-track-51-transparent-left_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/091-track-051-transparent-left_and_right_up.png"/>
   </tile>
   <tile id="52">
-   <image width="64" height="64" source="tiles/092-track-52-transparent-down_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/092-track-052-transparent-down_and_right_up.png"/>
   </tile>
   <tile id="53">
-   <image width="64" height="64" source="tiles/093-track-53-transparent-up_and_left_down.png"/>
+   <image width="64" height="64" source="tiles/093-track-053-transparent-up_and_left_down.png"/>
   </tile>
   <tile id="54">
-   <image width="64" height="64" source="tiles/094-track-54-transparent-up_and_right_up.png"/>
+   <image width="64" height="64" source="tiles/094-track-054-transparent-up_and_right_up.png"/>
   </tile>
   <tile id="55">
-   <image width="64" height="64" source="tiles/095-track-55-transparent-down_and_left_up.png"/>
+   <image width="64" height="64" source="tiles/095-track-055-transparent-down_and_left_up.png"/>
   </tile>
   <tile id="56">
-   <image width="64" height="64" source="tiles/096-track-56-transparent-right_and_vertical.png"/>
+   <image width="64" height="64" source="tiles/096-track-056-transparent-right_and_vertical.png"/>
   </tile>
   <tile id="57">
-   <image width="64" height="64" source="tiles/097-track-57-transparent-down_and_horizontal.png"/>
+   <image width="64" height="64" source="tiles/097-track-057-transparent-down_and_horizontal.png"/>
   </tile>
   <tile id="58">
-   <image width="64" height="64" source="tiles/098-track-58-transparent-up_and_horizontal.png"/>
+   <image width="64" height="64" source="tiles/098-track-058-transparent-up_and_horizontal.png"/>
   </tile>
   <tile id="59">
-   <image width="64" height="64" source="tiles/099-track-59-transparent-left_and_vertical.png"/>
+   <image width="64" height="64" source="tiles/099-track-059-transparent-left_and_vertical.png"/>
   </tile>
   <tile id="60">
-   <image width="64" height="64" source="tiles/100-track-60-transparent-vertical_and_right.png"/>
+   <image width="64" height="64" source="tiles/100-track-060-transparent-vertical_and_right.png"/>
   </tile>
   <tile id="61">
-   <image width="64" height="64" source="tiles/101-track-61-transparent-horizontal_and_down.png"/>
+   <image width="64" height="64" source="tiles/101-track-061-transparent-horizontal_and_down.png"/>
   </tile>
   <tile id="62">
-   <image width="64" height="64" source="tiles/102-track-62-transparent-horizontal_and_up.png"/>
+   <image width="64" height="64" source="tiles/102-track-062-transparent-horizontal_and_up.png"/>
   </tile>
   <tile id="63">
-   <image width="64" height="64" source="tiles/103-track-63-transparent-vertical_and_left.png"/>
+   <image width="64" height="64" source="tiles/103-track-063-transparent-vertical_and_left.png"/>
   </tile>
  </tileset>
  <layer id="1" name="map" width="49" height="55" locked="1">

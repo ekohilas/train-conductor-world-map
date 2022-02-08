@@ -85,18 +85,33 @@ generate_all()
     base_curve_planks_filepath="$(mktemp).png"
     base_curve_rails_filepath="$(mktemp).png"
 
-    generate_straight \
+    generate_straight_track \
         "$size" \
         "$color_planks" \
         "$color_rail" \
         "$base_straight_planks_filepath" \
         "$base_straight_rails_filepath"
 
-    generate_curve \
+    generate_curve_track \
         "$base_straight_planks_filepath" \
         "$base_straight_rails_filepath" \
         "$base_curve_planks_filepath" \
         "$base_curve_rails_filepath"
+
+    base_color_connection="#ffffff"
+
+    base_straight_connection_filepath="$(mktemp).png"
+    base_curve_connection_filepath="$(mktemp).png"
+
+    generate_straight_connection \
+        "$size" \
+        "$size" \
+        "$base_color_connection" \
+        "$base_straight_connection_filepath"
+
+    generate_curve_connection \
+        "$base_straight_connection_filepath" \
+        "$base_curve_connection_filepath"
 
     generate_from_csv \
         "$csv_file" \
@@ -104,14 +119,16 @@ generate_all()
         "$base_straight_rails_filepath" \
         "$base_curve_planks_filepath" \
         "$base_curve_rails_filepath" \
+        "$base_straight_connection_filepath" \
+        "$base_curve_connection_filepath" \
         "$output_directory"
 }
 
-generate_straight()
+generate_straight_track()
 {
     if [ "$#" -ne 5 ]
     then
-        echo "Usage: generate_straight <size> <planks_hex_color> <rails_hex_color> <base_straight_planks_output_filepath> <base_straight_rails_output_filepath>"
+        echo "Usage: generate_straight_track <size> <planks_hex_color> <rails_hex_color> <base_straight_planks_output_filepath> <base_straight_rails_output_filepath>"
         exit 1
     fi
 
@@ -238,12 +255,12 @@ generate_straight_rails()
     log "Saved      base straight rails to $base_straight_rails"
 }
 
-generate_curve()
+generate_curve_track()
 {
 
     if [ "$#" -ne 4 ]
     then
-        echo "Usage: generate_curve <base_straight_planks_filepath.png> <base_straight_rails_filepath.png> <base_curve_planks_output_filepath> <base_curve_rails_output_filepath>"
+        echo "Usage: generate_curve_track <base_straight_planks_filepath.png> <base_straight_rails_filepath.png> <base_curve_planks_output_filepath> <base_curve_rails_output_filepath>"
         exit 1
     fi
 
@@ -251,7 +268,6 @@ generate_curve()
     base_straight_rails="$2"
     base_curve_planks="$3"
     base_curve_rails="$4"
-
 
     map_p_angle="$(mktemp).png"
     map_p_radius="$(mktemp).png"
@@ -359,11 +375,106 @@ generate_curve_rails()
     log "Saved      base curve rails to $base_curve_rails"
 }
 
+generate_straight_connection()
+{
+    if [ "$#" -ne 4 ]
+    then
+        echo "Usage: generate_straight_connection <height> <width> <connection_hex_color> <straight_connection_output_filepath>"
+        exit 1
+    fi
+
+    height="$1"
+    width="$2"
+    color_connection="$3"
+    base_straight_connection="$4"
+
+    log "Generating base straight connection..."
+
+    height_original="64"
+    width_original="64"
+
+    center_rail_original="28"
+    center_rail_offset_from_center_ratio="( ( $height_original / 2 - $center_rail_original ) / $height_original )"
+    center_rail_offset_from_center="( $center_rail_offset_from_center_ratio * $height - 0.5 )"
+
+    rail_center_y="$(echo "scale=6; ( $height / 2 - $center_rail_offset_from_center)" | bc)"
+
+    rail_width_original="3"
+    rail_width_to_size_ratio="( $rail_width_original / $width_original )"
+    rail_width="$(echo "scale=6; ( $rail_width_to_size_ratio * $height )" | bc)"
+
+    connection_width="$(echo "scale=6; ( ( $rail_width / 2 + $center_rail_offset_from_center ) * 2)" | bc)"
+    connection_center_y="$(echo "scale=6; ( $height / 2 - 0.5 )" | bc)"
+
+    convert \
+        -size "${width}x${height}" \
+        canvas:none \
+        -stroke "$color_connection" \
+        -strokewidth "$connection_width" \
+        +antialias \
+        -draw "path 'M 0,$connection_center_y l $width,0'" \
+        "$base_straight_connection"
+
+    log "Saved      base straight connnection to $base_straight_connection"
+}
+
+generate_curve_connection()
+{
+    if [ "$#" -ne 2 ]
+    then
+        echo "Usage: generate_curve_connection <straight_connection_filepath.png> <curve_connection_output_filepath>"
+        exit 1
+    fi
+
+    base_straight_connection="$1"
+    base_curve_connection="$2"
+
+    log "Generating curve connection..."
+
+    map_p_angle="$(mktemp).png"
+    map_p_radius="$(mktemp).png"
+
+    image_size="$(identify -ping -format '%w %h' "$base_straight_connection")"
+    width=${image_size% *}
+    height=${image_size#* }
+
+    convert \
+        -size "${width}x${height}" \
+        canvas: \
+        -channel G \
+        -fx 'atan((j+0.5)/(i+0.5))*2/pi' \
+        -separate \
+        "$map_p_angle"
+
+    convert \
+        -size "${width}x${height}" \
+        canvas: \
+        -channel G \
+        -fx '1-hypot(i,j)/w' \
+        -separate \
+        "$map_p_radius"
+
+    convert "$base_straight_connection" \
+        "$map_p_angle" \
+        "$map_p_radius" \
+        -channel RGBA \
+        -interpolate integer \
+        -fx 'p{u[1].g*w,u[2].g*h}' \
+        -compose copy \
+        \( "$base_straight_connection" -crop "1x${height}+0+0" -transpose \) \
+        -composite \
+        \( "$base_straight_connection" -crop "1x${height}+0+0" \) \
+        -composite \
+        -rotate 90 \
+        "$base_curve_connection"
+    log "Saved      curve connection to $base_curve_connection"
+}
+
 generate_from_csv()
 {
-    if [ "$#" -ne 6 ]
+    if [ "$#" -ne 8 ]
     then
-        echo "Usage: generate_all <tiles.csv> <base_straight_planks.png> <base_straight_rails.png> <base_curve_planks.png> <base_curve_planks.png> <output_directory>"
+        echo "Usage: generate_from_csv <tiles.csv> <base_straight_planks.png> <base_straight_rails.png> <base_curve_planks.png> <base_curve_planks.png> <base_straight_connection.png> <base_curve_connection.png> <output_directory>"
         exit 1
     fi
 
@@ -372,7 +483,9 @@ generate_from_csv()
     base_straight_rails="$3"
     base_curve_planks="$4"
     base_curve_rails="$5"
-    output_directory="$6"
+    base_straight_connection="$6"
+    base_curve_connection="$7"
+    output_directory="$8"
 
     # removes header and types
     # add a newline if it doesn't already exist
@@ -436,7 +549,6 @@ generate_from_csv()
                 "$color" \
                 "$abbreviation" \
                 "$output_directory/$filename"
-
         elif [ "$group" = "Track" ]
         then
             generate_track \
@@ -444,6 +556,19 @@ generate_from_csv()
                 "$base_straight_rails" \
                 "$base_curve_planks" \
                 "$base_curve_rails" \
+                "$vertical" \
+                "$horizontal" \
+                "$up_right" \
+                "$down_left" \
+                "$down_right" \
+                "$up_left" \
+                "$color" \
+                "$output_directory/$filename"
+        elif [ "$group" = "Connection" ]
+        then
+            generate_connection \
+                "$base_straight_connection" \
+                "$base_curve_connection" \
                 "$vertical" \
                 "$horizontal" \
                 "$up_right" \
@@ -708,6 +833,97 @@ generate_track()
         $planks \
         $rails \
         -layers flatten \
+        "$filename"
+
+    log " Done!"
+}
+
+generate_connection()
+{
+    if [ "$#" -ne 10 ]
+    then
+        echo "Usage: generate_connection
+    <base_straight_connection.png>
+    <base_curve_connection.png>
+    <is vertical (TRUE|FALSE)>
+    <is horizontal (TRUE|FALSE)>
+    <is up_right (TRUE|FALSE)>
+    <is down_left (TRUE|FALSE)>
+    <is down_right (TRUE|FALSE)>
+    <is up_left (TRUE|FALSE)>
+    <connection_hex_color>
+    <connection_output_filepath>"
+        exit
+    fi
+
+    base_straight_connection="$1"
+    base_curve_connection="$2" # swapping these overlaps, but only half of the time?
+    vertical="$3"
+    horizontal="$4"
+    up_right="$5"
+    down_left="$6"
+    down_right="$7"
+    up_left="$8"
+    color="$9"
+    filename="${10}"
+
+    log -n "Generating track $filename..."
+
+    # to reset the variables
+    horizontal_connection=""
+    vertical_connection=""
+    up_right_connection=""
+    down_left_connection=""
+    down_right_connection=""
+    up_left_connection=""
+
+    
+    if [ "$horizontal" = "TRUE" ]
+    then
+        horizontal_connection="$base_straight_connection"
+    fi
+
+    if [ "$vertical" = "TRUE" ]
+    then
+        # bracketing the rotations makes them singular
+        vertical_connection="( $base_straight_connection -rotate 90 )"
+    fi
+
+    if [ "$up_right" = "TRUE" ]
+    then
+        up_right_connection="$base_curve_connection"
+    fi
+
+    if [ "$down_left" = "TRUE" ]
+    then
+        down_left_connection="( $base_curve_connection -rotate 180 )"
+    fi
+
+    if [ "$down_right" = "TRUE" ]
+    then
+        down_right_connection="( $base_curve_connection -rotate 90 )"
+    fi
+
+    if [ "$up_left" = "TRUE" ]
+    then
+        up_left_connection="( $base_curve_connection -rotate 270 )"
+    fi
+
+    connections="
+        $horizontal_connection 
+        $vertical_connection 
+        $up_right_connection 
+        $down_left_connection 
+        $down_right_connection 
+        $up_left_connection"
+
+    convert \
+        -background none \
+        $connections \
+        -layers flatten \
+        -channel RGB \
+        canvas:"$color" \
+        -clut \
         "$filename"
 
     log " Done!"

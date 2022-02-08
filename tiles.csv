@@ -1,106 +1,520 @@
 Abbreviation,Name,Color,Group,Type,Filename,Id,Tmx Id,Group Id,Height,X,Y,Connection Color,Overlays,Speed,Branching,Branches,Vertical,Horizontal,Up Right,Down Left,Down Right,Up Left,Up,Right,Down,Left
 String,String,String,String,String,String,Integer,Integer,Integer,Integer,Integer,Integer,String,List,Float,Boolean,Integer,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean
-☁️,Cloud,#f1ffff,Environment,,000-environment-00-cloud.png,0,1,0,7,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,,,,
-🌊,Water,#326aa1,Environment,Sparse,001-environment-01-sparse-water.png,1,2,1,0,,,,,,,,,,TRUE,FALSE,FALSE,FALSE,,,,
-🌊,Water,#2a5186,Environment,Dense,002-environment-02-dense-water.png,2,3,2,0,,,,,,,,,,FALSE,TRUE,FALSE,FALSE,,,,
-🌱,Grass,#7ab350,Environment,Sparse,003-environment-03-sparse-grass.png,3,4,3,1,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,,,,
-🌱,Grass,#7ab350,Environment,Sparse,004-environment-04-sparse-grass.png,4,5,4,1,,,,,,,,,,TRUE,TRUE,FALSE,FALSE,,,,
-🌱,Grass,#6fa254,Environment,Dense,005-environment-05-dense-grass.png,5,6,5,2,,,,,,,,,,TRUE,TRUE,FALSE,TRUE,,,,
-🌱,Grass,#6fa254,Environment,Dense,006-environment-06-dense-grass.png,6,7,6,2,,,,,,,,,,TRUE,FALSE,TRUE,TRUE,,,,
-🌲,Forest,#547d57,Environment,Sparse,007-environment-07-sparse-forest.png,7,8,7,3,,,,,,,,,,TRUE,TRUE,TRUE,FALSE,,,,
-🌲,Forest,#487053,Environment,Dense,008-environment-08-dense-forest.png,8,9,8,4,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,,,,
-⛰,Mountain,#838a8b,Environment,Sparse,009-environment-09-sparse-mountain.png,9,10,9,5,,,,,,,,,,FALSE,FALSE,TRUE,TRUE,,,,
-⛰,Mountain,#949799,Environment,Dense,010-environment-10-dense-mountain.png,10,11,10,6,,,,,,,,,,FALSE,FALSE,FALSE,TRUE,,,,
-Am,Amsterdam,#4e368e,Location,City,011-location-00-city-amsterdam.png,11,12,0,,22,16,#4d339e,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ba,Bastei,#693351,Location,City,012-location-01-city-bastei.png,12,13,1,,35,25,#693058,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Bf,Belfast,#4c2f1f,Location,City,013-location-02-city-belfast.png,13,14,2,,5,11,#4b2a1e,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Be,Berlin,#87263b,Location,City,014-location-03-city-berlin.png,14,15,3,,32,18,#89213f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Bn,Bernina,#a6171b,Location,City,015-location-04-city-bernina.png,15,16,4,,31,37,#a72525,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Br,Bruges,#cb494c,Location,City,016-location-05-city-bruges.png,16,17,5,,18,21,#cb414d,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Bd,Budapest,#696256,Location,City,017-location-06-city-budapest.png,17,18,6,,42,32,#69625f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Co,Cologne,#235720,Location,City,018-location-07-city-cologne.png,18,19,7,,25,21,#1e561e,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Cp,Copenhagen,#bb6339,Location,City,019-location-08-city-copenhagen.png,19,20,8,,31,11,#bd633d,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ed,Edingburgh,#c73765,Location,City,020-location-09-city-edingburgh.png,20,21,9,,12,9,#c93470,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Fl,Florence,#e85e36,Location,City,021-location-10-city-florence.png,21,22,10,,30,43,#ee6235,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Go,Gothenburg,#cc786d,Location,City,022-location-11-city-gothenburg.png,22,23,11,,31,6,#cf7676,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ld,London,#9d6abb,Location,City,023-location-12-city-london.png,23,24,12,,14,18,#9e6acf,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ly,Lyon,#774e29,Location,City,024-location-13-city-lyon.png,24,25,13,,21,36,#784d29,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Md,Madrid,#753b8c,Location,City,025-location-14-city-madrid.png,25,26,14,,7,48,#7e46a0,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Mt,Matterhron,#383833,Location,City,026-location-15-city-matterhron.png,26,27,15,,27,35,#353535,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Mi,Millau,#005865,Location,City,027-location-16-city-millau.png,27,28,16,,16,39,#005770,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Mo,Mons,#1e6ec4,Location,City,028-location-17-city-mons.png,28,29,17,,21,23,#186ed9,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ms,Mostar,#00b6c1,Location,City,029-location-18-city-mostar.png,29,30,18,,41,42,#0b8599,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Pa,Paris,#c96e9b,Location,City,030-location-19-city-paris.png,30,31,19,,16,27,#be6ea4,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Pr,Prague,#465e07,Location,City,031-location-20-city-prague.png,31,32,20,,38,27,#758a12,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ve,Verdon,#4a0f59,Location,City,032-location-21-city-verdon.png,32,33,21,,23,42,#3eb062,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Wa,Warsaw,#415388,Location,City,033-location-22-city-warsaw.png,33,34,22,,44,21,#3f5297,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Di,Dijon,#727375,Location,Port,034-location-23-port-dijon.png,34,35,23,,20,31,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Gr,Grimsby,#727375,Location,Port,035-location-24-port-grimsby.png,35,36,24,,13,14,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ha,Hamburg,#727375,Location,Port,036-location-25-port-hamburg.png,36,37,25,,27,15,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ma,Marseille,#727375,Location,Port,037-location-26-port-marseille.png,37,38,26,,20,44,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-Ro,Rotterdam,#727375,Location,Port,038-location-27-port-rotterdam.png,38,39,27,,21,19,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-St,Stuttgart,#727375,Location,Port,039-location-28-port-stuttgart.png,39,40,28,,28,27,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
-│,Vertical,#ae754b,Track,Wood,040-track-00-wood-vertical.png,40,41,0,,,,,Grass,1,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-─,Horizontal,#ae754b,Track,Wood,041-track-01-wood-horizontal.png,41,42,1,,,,,Grass,1,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-└,Up and Right,#ae754b,Track,Wood,042-track-02-wood-up_and_right.png,42,43,2,,,,,Grass,1,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
-┐,Down and Left,#ae754b,Track,Wood,043-track-03-wood-down_and_left.png,43,44,3,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-┌,Down and Right,#ae754b,Track,Wood,044-track-04-wood-down_and_right.png,44,45,4,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-┘,Up and Left,#ae754b,Track,Wood,045-track-05-wood-up_and_left.png,45,46,5,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-│,Vertical,#696c70,Track,Iron,046-track-06-iron-vertical.png,46,47,6,,,,,"Grass, Forest",1.3,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-─,Horizontal,#696c70,Track,Iron,047-track-07-iron-horizontal.png,47,48,7,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-└,Up and Right,#696c70,Track,Iron,048-track-08-iron-up_and_right.png,48,49,8,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
-┐,Down and Left,#696c70,Track,Iron,049-track-09-iron-down_and_left.png,49,50,9,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-┌,Down and Right,#696c70,Track,Iron,050-track-10-iron-down_and_right.png,50,51,10,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-┘,Up and Left,#696c70,Track,Iron,051-track-11-iron-up_and_left.png,51,52,11,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-┶,Right and Left Up,#696c70,Track,Iron,052-track-12-iron-right_and_left_up.png,52,53,12,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-┭,Left and Right Down,#696c70,Track,Iron,053-track-13-iron-left_and_right_down.png,53,54,13,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-┮,Right and Left Down,#696c70,Track,Iron,054-track-14-iron-right_and_left_down.png,54,55,14,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┵,Left and Right Up,#696c70,Track,Iron,055-track-15-iron-left_and_right_up.png,55,56,15,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┟,Down and Right Up,#696c70,Track,Iron,056-track-16-iron-down_and_right_up.png,56,57,16,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-┦,Up and Left Down,#696c70,Track,Iron,057-track-17-iron-up_and_left_down.png,57,58,17,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-┞,Up and Right Down,#696c70,Track,Iron,058-track-18-iron-up_and_right_down.png,58,59,18,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
-┧,Down and Left Up,#696c70,Track,Iron,059-track-19-iron-down_and_left_up.png,59,60,19,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-┝,Right and Vertical,#696c70,Track,Iron,060-track-20-iron-right_and_vertical.png,60,61,20,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-┰,Down and Horizontal,#696c70,Track,Iron,061-track-21-iron-down_and_horizontal.png,61,62,21,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┸,Up and Horizontal,#696c70,Track,Iron,062-track-22-iron-up_and_horizontal.png,62,63,22,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┥,Left and Vertical,#696c70,Track,Iron,063-track-23-iron-left_and_vertical.png,63,64,23,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-│,Vertical,#898f7f,Track,Alloy,064-track-24-alloy-vertical.png,64,65,24,,,,,"Grass, Forest, Water",1.6,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-─,Horizontal,#898f7f,Track,Alloy,065-track-25-alloy-horizontal.png,65,66,25,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-└,Up and Right,#898f7f,Track,Alloy,066-track-26-alloy-up_and_right.png,66,67,26,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
-┐,Down and Left,#898f7f,Track,Alloy,067-track-27-alloy-down_and_left.png,67,68,27,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-┌,Down and Right,#898f7f,Track,Alloy,068-track-28-alloy-down_and_right.png,68,69,28,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-┘,Up and Left,#898f7f,Track,Alloy,069-track-29-alloy-up_and_left.png,69,70,29,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-┶,Right and Left Up,#898f7f,Track,Alloy,070-track-30-alloy-right_and_left_up.png,70,71,30,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-┭,Left and Right Down,#898f7f,Track,Alloy,071-track-31-alloy-left_and_right_down.png,71,72,31,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-┮,Right and Left Down,#898f7f,Track,Alloy,072-track-32-alloy-right_and_left_down.png,72,73,32,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┵,Left and Right Up,#898f7f,Track,Alloy,073-track-33-alloy-left_and_right_up.png,73,74,33,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┟,Down and Right Up,#898f7f,Track,Alloy,074-track-34-alloy-down_and_right_up.png,74,75,34,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-┦,Up and Left Down,#898f7f,Track,Alloy,075-track-35-alloy-up_and_left_down.png,75,76,35,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-┞,Up and Right Up,#898f7f,Track,Alloy,076-track-36-alloy-up_and_right_up.png,76,77,36,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
-┧,Down and Left Up,#898f7f,Track,Alloy,077-track-37-alloy-down_and_left_up.png,77,78,37,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-┣,Vertical and Right,#898f7f,Track,Alloy,078-track-38-alloy-vertical_and_right.png,78,79,38,,,,,"Grass, Forest",1.6,TRUE,3,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-┳,Horizontal and Down,#898f7f,Track,Alloy,079-track-39-alloy-horizontal_and_down.png,79,80,39,,,,,"Grass, Forest",1.6,TRUE,3,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┻,Horizontal and Up,#898f7f,Track,Alloy,080-track-40-alloy-horizontal_and_up.png,80,81,40,,,,,"Grass, Forest",1.6,TRUE,3,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┫,Vertical and Left,#898f7f,Track,Alloy,081-track-41-alloy-vertical_and_left.png,81,82,41,,,,,"Grass, Forest",1.6,TRUE,3,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-│,Vertical,none,Track,Transparent,082-track-42-transparent-vertical.png,82,83,42,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-─,Horizontal,none,Track,Transparent,083-track-43-transparent-horizontal.png,83,84,43,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-└,Up and Right,none,Track,Transparent,084-track-44-transparent-up_and_right.png,84,85,44,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
-┐,Down and Left,none,Track,Transparent,085-track-45-transparent-down_and_left.png,85,86,45,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
-┌,Down and Right,none,Track,Transparent,086-track-46-transparent-down_and_right.png,86,87,46,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
-┘,Up and Left,none,Track,Transparent,087-track-47-transparent-up_and_left.png,87,88,47,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
-┶,Right and Left Up,none,Track,Transparent,088-track-48-transparent-right_and_left_up.png,88,89,48,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
-┭,Left and Right Down,none,Track,Transparent,089-track-49-transparent-left_and_right_down.png,89,90,49,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
-┮,Right and Left Down,none,Track,Transparent,090-track-50-transparent-right_and_left_down.png,90,91,50,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┵,Left and Right Up,none,Track,Transparent,091-track-51-transparent-left_and_right_up.png,91,92,51,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┟,Down and Right Up,none,Track,Transparent,092-track-52-transparent-down_and_right_up.png,92,93,52,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-┦,Up and Left Down,none,Track,Transparent,093-track-53-transparent-up_and_left_down.png,93,94,53,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-┞,Up and Right Up,none,Track,Transparent,094-track-54-transparent-up_and_right_up.png,94,95,54,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
-┧,Down and Left Up,none,Track,Transparent,095-track-55-transparent-down_and_left_up.png,95,96,55,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
-┝,Right and Vertical,none,Track,Transparent,096-track-56-transparent-right_and_vertical.png,96,97,56,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-┰,Down and Horizontal,none,Track,Transparent,097-track-57-transparent-down_and_horizontal.png,97,98,57,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
-┸,Up and Horizontal,none,Track,Transparent,098-track-58-transparent-up_and_horizontal.png,98,99,58,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
-┥,Left and Vertical,none,Track,Transparent,099-track-59-transparent-left_and_vertical.png,99,100,59,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
-┣,Vertical and Right,none,Track,Transparent,100-track-60-transparent-vertical_and_right.png,100,101,60,,,,,,,TRUE,3,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
-┳,Horizontal and Down,none,Track,Transparent,101-track-61-transparent-horizontal_and_down.png,101,102,61,,,,,,,TRUE,3,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-┻,Horizontal and Up,none,Track,Transparent,102-track-62-transparent-horizontal_and_up.png,102,103,62,,,,,,,TRUE,3,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
-┫,Vertical and Left,none,Track,Transparent,103-track-63-transparent-vertical_and_left.png,103,104,63,,,,,,,TRUE,3,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+☁️,Cloud,#f1ffff,Environment,,000-environment-000-cloud.png,0,1,0,7,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,,,,
+🌊,Water,#326aa1,Environment,Sparse,001-environment-001-sparse-water.png,1,2,1,0,,,,,,,,,,TRUE,FALSE,FALSE,FALSE,,,,
+🌊,Water,#2a5186,Environment,Dense,002-environment-002-dense-water.png,2,3,2,0,,,,,,,,,,FALSE,TRUE,FALSE,FALSE,,,,
+🌱,Grass,#7ab350,Environment,Sparse,003-environment-003-sparse-grass.png,3,4,3,1,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,,,,
+🌱,Grass,#7ab350,Environment,Sparse,004-environment-004-sparse-grass.png,4,5,4,1,,,,,,,,,,TRUE,TRUE,FALSE,FALSE,,,,
+🌱,Grass,#6fa254,Environment,Dense,005-environment-005-dense-grass.png,5,6,5,2,,,,,,,,,,TRUE,TRUE,FALSE,TRUE,,,,
+🌱,Grass,#6fa254,Environment,Dense,006-environment-006-dense-grass.png,6,7,6,2,,,,,,,,,,TRUE,FALSE,TRUE,TRUE,,,,
+🌲,Forest,#547d57,Environment,Sparse,007-environment-007-sparse-forest.png,7,8,7,3,,,,,,,,,,TRUE,TRUE,TRUE,FALSE,,,,
+🌲,Forest,#487053,Environment,Dense,008-environment-008-dense-forest.png,8,9,8,4,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,,,,
+⛰,Mountain,#838a8b,Environment,Sparse,009-environment-009-sparse-mountain.png,9,10,9,5,,,,,,,,,,FALSE,FALSE,TRUE,TRUE,,,,
+⛰,Mountain,#949799,Environment,Dense,010-environment-010-dense-mountain.png,10,11,10,6,,,,,,,,,,FALSE,FALSE,FALSE,TRUE,,,,
+Am,Amsterdam,#4e368e,Location,City,011-location-000-city-amsterdam.png,11,12,0,,22,16,#4e369d,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ba,Bastei,#693351,Location,City,012-location-001-city-bastei.png,12,13,1,,35,25,#693359,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Bf,Belfast,#4c2f1f,Location,City,013-location-002-city-belfast.png,13,14,2,,5,11,#4c2e23,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Be,Berlin,#87263b,Location,City,014-location-003-city-berlin.png,14,15,3,,32,18,#882641,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Bn,Bernina,#a6171b,Location,City,015-location-004-city-bernina.png,15,16,4,,31,37,#a62a2a,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Br,Bruges,#cb494c,Location,City,016-location-005-city-bruges.png,16,17,5,,18,21,#ca434e,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Bd,Budapest,#696256,Location,City,017-location-006-city-budapest.png,17,18,6,,42,32,#69625f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Co,Cologne,#235720,Location,City,018-location-007-city-cologne.png,18,19,7,,25,21,#235723,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Cp,Copenhagen,#bb6339,Location,City,019-location-008-city-copenhagen.png,19,20,8,,31,11,#bc633f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ed,Edinburgh,#c73765,Location,City,020-location-009-city-edinburgh.png,20,21,9,,12,9,#c8376f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Fl,Florence,#e85e36,Location,City,021-location-010-city-florence.png,21,22,10,,30,43,#ed6238,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Go,Gothenburg,#cc786d,Location,City,022-location-011-city-gothenburg.png,22,23,11,,31,6,#ce7575,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ld,London,#9d6abb,Location,City,023-location-012-city-london.png,23,24,12,,14,18,#9d6ace,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ly,Lyon,#774e29,Location,City,024-location-013-city-lyon.png,24,25,13,,21,36,#774e2d,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Md,Madrid,#753b8c,Location,City,025-location-014-city-madrid.png,25,26,14,,7,48,#7d489f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Mt,Matterhorn,#383833,Location,City,026-location-015-city-matterhorn.png,26,27,15,,27,35,#383838,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Mi,Millau,#005865,Location,City,027-location-016-city-millau.png,27,28,16,,16,39,#00586f,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Mo,Mons,#1e6ec4,Location,City,028-location-017-city-mons.png,28,29,17,,21,23,#1e6ed8,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ms,Mostar,#00b6c1,Location,City,029-location-018-city-mostar.png,29,30,18,,41,42,#138498,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Pa,Paris,#c96e9b,Location,City,030-location-019-city-paris.png,30,31,19,,16,27,#bd6ea3,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Pr,Prague,#465e07,Location,City,031-location-020-city-prague.png,31,32,20,,38,27,#748919,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ve,Verdon,#40af59,Location,City,032-location-021-city-verdon.png,32,33,21,,23,42,#40af62,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Wa,Warsaw,#415388,Location,City,033-location-022-city-warsaw.png,33,34,22,,44,21,#415396,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Di,Dijon,#727375,Location,Port,034-location-023-port-dijon.png,34,35,23,,20,31,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Gr,Grimsby,#727375,Location,Port,035-location-024-port-grimsby.png,35,36,24,,13,14,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ha,Hamburg,#727375,Location,Port,036-location-025-port-hamburg.png,36,37,25,,27,15,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ma,Marseille,#727375,Location,Port,037-location-026-port-marseille.png,37,38,26,,20,44,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+Ro,Rotterdam,#727375,Location,Port,038-location-027-port-rotterdam.png,38,39,27,,21,19,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+St,Stuttgart,#727375,Location,Port,039-location-028-port-stuttgart.png,39,40,28,,28,27,,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE
+│,Vertical,#ae754b,Track,Wood,040-track-000-wood-vertical.png,40,41,0,,,,,Grass,1,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#ae754b,Track,Wood,041-track-001-wood-horizontal.png,41,42,1,,,,,Grass,1,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#ae754b,Track,Wood,042-track-002-wood-up_and_right.png,42,43,2,,,,,Grass,1,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#ae754b,Track,Wood,043-track-003-wood-down_and_left.png,43,44,3,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#ae754b,Track,Wood,044-track-004-wood-down_and_right.png,44,45,4,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#ae754b,Track,Wood,045-track-005-wood-up_and_left.png,45,46,5,,,,,Grass,1,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+│,Vertical,#696c70,Track,Iron,046-track-006-iron-vertical.png,46,47,6,,,,,"Grass, Forest",1.3,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#696c70,Track,Iron,047-track-007-iron-horizontal.png,47,48,7,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#696c70,Track,Iron,048-track-008-iron-up_and_right.png,48,49,8,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#696c70,Track,Iron,049-track-009-iron-down_and_left.png,49,50,9,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#696c70,Track,Iron,050-track-010-iron-down_and_right.png,50,51,10,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#696c70,Track,Iron,051-track-011-iron-up_and_left.png,51,52,11,,,,,"Grass, Forest",1.3,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#696c70,Track,Iron,052-track-012-iron-right_and_left_up.png,52,53,12,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#696c70,Track,Iron,053-track-013-iron-left_and_right_down.png,53,54,13,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#696c70,Track,Iron,054-track-014-iron-right_and_left_down.png,54,55,14,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#696c70,Track,Iron,055-track-015-iron-left_and_right_up.png,55,56,15,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#696c70,Track,Iron,056-track-016-iron-down_and_right_up.png,56,57,16,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#696c70,Track,Iron,057-track-017-iron-up_and_left_down.png,57,58,17,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Down,#696c70,Track,Iron,058-track-018-iron-up_and_right_down.png,58,59,18,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#696c70,Track,Iron,059-track-019-iron-down_and_left_up.png,59,60,19,,,,,"Grass, Forest",1.3,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#696c70,Track,Iron,060-track-020-iron-right_and_vertical.png,60,61,20,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+┰,Down and Horizontal,#696c70,Track,Iron,061-track-021-iron-down_and_horizontal.png,61,62,21,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┸,Up and Horizontal,#696c70,Track,Iron,062-track-022-iron-up_and_horizontal.png,62,63,22,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┥,Left and Vertical,#696c70,Track,Iron,063-track-023-iron-left_and_vertical.png,63,64,23,,,,,"Grass, Forest",1.3,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#898f7f,Track,Alloy,064-track-024-alloy-vertical.png,64,65,24,,,,,"Grass, Forest, Water",1.6,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#898f7f,Track,Alloy,065-track-025-alloy-horizontal.png,65,66,25,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#898f7f,Track,Alloy,066-track-026-alloy-up_and_right.png,66,67,26,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┐,Down and Left,#898f7f,Track,Alloy,067-track-027-alloy-down_and_left.png,67,68,27,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#898f7f,Track,Alloy,068-track-028-alloy-down_and_right.png,68,69,28,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#898f7f,Track,Alloy,069-track-029-alloy-up_and_left.png,69,70,29,,,,,"Grass, Forest, Water",1.6,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#898f7f,Track,Alloy,070-track-030-alloy-right_and_left_up.png,70,71,30,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#898f7f,Track,Alloy,071-track-031-alloy-left_and_right_down.png,71,72,31,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#898f7f,Track,Alloy,072-track-032-alloy-right_and_left_down.png,72,73,32,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#898f7f,Track,Alloy,073-track-033-alloy-left_and_right_up.png,73,74,33,,,,,"Grass, Forest",1.6,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#898f7f,Track,Alloy,074-track-034-alloy-down_and_right_up.png,74,75,34,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#898f7f,Track,Alloy,075-track-035-alloy-up_and_left_down.png,75,76,35,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#898f7f,Track,Alloy,076-track-036-alloy-up_and_right_up.png,76,77,36,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#898f7f,Track,Alloy,077-track-037-alloy-down_and_left_up.png,77,78,37,,,,,"Grass, Forest",1.6,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┣,Vertical and Right,#898f7f,Track,Alloy,078-track-038-alloy-vertical_and_right.png,78,79,38,,,,,"Grass, Forest",1.6,TRUE,3,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+┳,Horizontal and Down,#898f7f,Track,Alloy,079-track-039-alloy-horizontal_and_down.png,79,80,39,,,,,"Grass, Forest",1.6,TRUE,3,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┻,Horizontal and Up,#898f7f,Track,Alloy,080-track-040-alloy-horizontal_and_up.png,80,81,40,,,,,"Grass, Forest",1.6,TRUE,3,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┫,Vertical and Left,#898f7f,Track,Alloy,081-track-041-alloy-vertical_and_left.png,81,82,41,,,,,"Grass, Forest",1.6,TRUE,3,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,none,Track,Transparent,082-track-042-transparent-vertical.png,82,83,42,,,,,"Grass, Forest, Water",,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,none,Track,Transparent,083-track-043-transparent-horizontal.png,83,84,43,,,,,"Grass, Forest, Water",,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,none,Track,Transparent,084-track-044-transparent-up_and_right.png,84,85,44,,,,,"Grass, Forest, Water",,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,none,Track,Transparent,085-track-045-transparent-down_and_left.png,85,86,45,,,,,"Grass, Forest, Water",,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,none,Track,Transparent,086-track-046-transparent-down_and_right.png,86,87,46,,,,,"Grass, Forest, Water",,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,none,Track,Transparent,087-track-047-transparent-up_and_left.png,87,88,47,,,,,"Grass, Forest, Water",,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,none,Track,Transparent,088-track-048-transparent-right_and_left_up.png,88,89,48,,,,,"Grass, Forest",,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,none,Track,Transparent,089-track-049-transparent-left_and_right_down.png,89,90,49,,,,,"Grass, Forest",,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,none,Track,Transparent,090-track-050-transparent-right_and_left_down.png,90,91,50,,,,,"Grass, Forest",,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,none,Track,Transparent,091-track-051-transparent-left_and_right_up.png,91,92,51,,,,,"Grass, Forest",,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,none,Track,Transparent,092-track-052-transparent-down_and_right_up.png,92,93,52,,,,,"Grass, Forest",,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,none,Track,Transparent,093-track-053-transparent-up_and_left_down.png,93,94,53,,,,,"Grass, Forest",,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,none,Track,Transparent,094-track-054-transparent-up_and_right_up.png,94,95,54,,,,,"Grass, Forest",,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,none,Track,Transparent,095-track-055-transparent-down_and_left_up.png,95,96,55,,,,,"Grass, Forest",,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,none,Track,Transparent,096-track-056-transparent-right_and_vertical.png,96,97,56,,,,,"Grass, Forest",,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,none,Track,Transparent,097-track-057-transparent-down_and_horizontal.png,97,98,57,,,,,"Grass, Forest",,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,none,Track,Transparent,098-track-058-transparent-up_and_horizontal.png,98,99,58,,,,,"Grass, Forest",,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,none,Track,Transparent,099-track-059-transparent-left_and_vertical.png,99,100,59,,,,,"Grass, Forest",,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┣,Vertical and Right,none,Track,Transparent,100-track-060-transparent-vertical_and_right.png,100,101,60,,,,,"Grass, Forest",,TRUE,3,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+┳,Horizontal and Down,none,Track,Transparent,101-track-061-transparent-horizontal_and_down.png,101,102,61,,,,,"Grass, Forest",,TRUE,3,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┻,Horizontal and Up,none,Track,Transparent,102-track-062-transparent-horizontal_and_up.png,102,103,62,,,,,"Grass, Forest",,TRUE,3,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┫,Vertical and Left,none,Track,Transparent,103-track-063-transparent-vertical_and_left.png,103,104,63,,,,,"Grass, Forest",,TRUE,3,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#4e369d,Connection,Amsterdam,104-connection-000-amsterdam-vertical.png,104,105,0,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#4e369d,Connection,Amsterdam,105-connection-001-amsterdam-horizontal.png,105,106,1,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#4e369d,Connection,Amsterdam,106-connection-002-amsterdam-up_and_right.png,106,107,2,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#4e369d,Connection,Amsterdam,107-connection-003-amsterdam-down_and_left.png,107,108,3,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#4e369d,Connection,Amsterdam,108-connection-004-amsterdam-down_and_right.png,108,109,4,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#4e369d,Connection,Amsterdam,109-connection-005-amsterdam-up_and_left.png,109,110,5,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#4e369d,Connection,Amsterdam,110-connection-006-amsterdam-right_and_left_up.png,110,111,6,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#4e369d,Connection,Amsterdam,111-connection-007-amsterdam-left_and_right_down.png,111,112,7,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#4e369d,Connection,Amsterdam,112-connection-008-amsterdam-right_and_left_down.png,112,113,8,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#4e369d,Connection,Amsterdam,113-connection-009-amsterdam-left_and_right_up.png,113,114,9,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#4e369d,Connection,Amsterdam,114-connection-010-amsterdam-down_and_right_up.png,114,115,10,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#4e369d,Connection,Amsterdam,115-connection-011-amsterdam-up_and_left_down.png,115,116,11,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#4e369d,Connection,Amsterdam,116-connection-012-amsterdam-up_and_right_up.png,116,117,12,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#4e369d,Connection,Amsterdam,117-connection-013-amsterdam-down_and_left_up.png,117,118,13,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#4e369d,Connection,Amsterdam,118-connection-014-amsterdam-right_and_vertical.png,118,119,14,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#4e369d,Connection,Amsterdam,119-connection-015-amsterdam-down_and_horizontal.png,119,120,15,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#4e369d,Connection,Amsterdam,120-connection-016-amsterdam-up_and_horizontal.png,120,121,16,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#4e369d,Connection,Amsterdam,121-connection-017-amsterdam-left_and_vertical.png,121,122,17,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#693359,Connection,Bastei,122-connection-018-bastei-vertical.png,122,123,18,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#693359,Connection,Bastei,123-connection-019-bastei-horizontal.png,123,124,19,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#693359,Connection,Bastei,124-connection-020-bastei-up_and_right.png,124,125,20,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#693359,Connection,Bastei,125-connection-021-bastei-down_and_left.png,125,126,21,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#693359,Connection,Bastei,126-connection-022-bastei-down_and_right.png,126,127,22,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#693359,Connection,Bastei,127-connection-023-bastei-up_and_left.png,127,128,23,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#693359,Connection,Bastei,128-connection-024-bastei-right_and_left_up.png,128,129,24,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#693359,Connection,Bastei,129-connection-025-bastei-left_and_right_down.png,129,130,25,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#693359,Connection,Bastei,130-connection-026-bastei-right_and_left_down.png,130,131,26,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#693359,Connection,Bastei,131-connection-027-bastei-left_and_right_up.png,131,132,27,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#693359,Connection,Bastei,132-connection-028-bastei-down_and_right_up.png,132,133,28,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#693359,Connection,Bastei,133-connection-029-bastei-up_and_left_down.png,133,134,29,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#693359,Connection,Bastei,134-connection-030-bastei-up_and_right_up.png,134,135,30,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#693359,Connection,Bastei,135-connection-031-bastei-down_and_left_up.png,135,136,31,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#693359,Connection,Bastei,136-connection-032-bastei-right_and_vertical.png,136,137,32,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#693359,Connection,Bastei,137-connection-033-bastei-down_and_horizontal.png,137,138,33,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#693359,Connection,Bastei,138-connection-034-bastei-up_and_horizontal.png,138,139,34,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#693359,Connection,Bastei,139-connection-035-bastei-left_and_vertical.png,139,140,35,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#4c2e23,Connection,Belfast,140-connection-036-belfast-vertical.png,140,141,36,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#4c2e23,Connection,Belfast,141-connection-037-belfast-horizontal.png,141,142,37,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#4c2e23,Connection,Belfast,142-connection-038-belfast-up_and_right.png,142,143,38,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#4c2e23,Connection,Belfast,143-connection-039-belfast-down_and_left.png,143,144,39,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#4c2e23,Connection,Belfast,144-connection-040-belfast-down_and_right.png,144,145,40,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#4c2e23,Connection,Belfast,145-connection-041-belfast-up_and_left.png,145,146,41,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#4c2e23,Connection,Belfast,146-connection-042-belfast-right_and_left_up.png,146,147,42,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#4c2e23,Connection,Belfast,147-connection-043-belfast-left_and_right_down.png,147,148,43,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#4c2e23,Connection,Belfast,148-connection-044-belfast-right_and_left_down.png,148,149,44,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#4c2e23,Connection,Belfast,149-connection-045-belfast-left_and_right_up.png,149,150,45,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#4c2e23,Connection,Belfast,150-connection-046-belfast-down_and_right_up.png,150,151,46,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#4c2e23,Connection,Belfast,151-connection-047-belfast-up_and_left_down.png,151,152,47,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#4c2e23,Connection,Belfast,152-connection-048-belfast-up_and_right_up.png,152,153,48,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#4c2e23,Connection,Belfast,153-connection-049-belfast-down_and_left_up.png,153,154,49,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#4c2e23,Connection,Belfast,154-connection-050-belfast-right_and_vertical.png,154,155,50,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#4c2e23,Connection,Belfast,155-connection-051-belfast-down_and_horizontal.png,155,156,51,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#4c2e23,Connection,Belfast,156-connection-052-belfast-up_and_horizontal.png,156,157,52,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#4c2e23,Connection,Belfast,157-connection-053-belfast-left_and_vertical.png,157,158,53,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#882641,Connection,Berlin,158-connection-054-berlin-vertical.png,158,159,54,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#882641,Connection,Berlin,159-connection-055-berlin-horizontal.png,159,160,55,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#882641,Connection,Berlin,160-connection-056-berlin-up_and_right.png,160,161,56,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#882641,Connection,Berlin,161-connection-057-berlin-down_and_left.png,161,162,57,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#882641,Connection,Berlin,162-connection-058-berlin-down_and_right.png,162,163,58,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#882641,Connection,Berlin,163-connection-059-berlin-up_and_left.png,163,164,59,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#882641,Connection,Berlin,164-connection-060-berlin-right_and_left_up.png,164,165,60,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#882641,Connection,Berlin,165-connection-061-berlin-left_and_right_down.png,165,166,61,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#882641,Connection,Berlin,166-connection-062-berlin-right_and_left_down.png,166,167,62,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#882641,Connection,Berlin,167-connection-063-berlin-left_and_right_up.png,167,168,63,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#882641,Connection,Berlin,168-connection-064-berlin-down_and_right_up.png,168,169,64,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#882641,Connection,Berlin,169-connection-065-berlin-up_and_left_down.png,169,170,65,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#882641,Connection,Berlin,170-connection-066-berlin-up_and_right_up.png,170,171,66,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#882641,Connection,Berlin,171-connection-067-berlin-down_and_left_up.png,171,172,67,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#882641,Connection,Berlin,172-connection-068-berlin-right_and_vertical.png,172,173,68,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#882641,Connection,Berlin,173-connection-069-berlin-down_and_horizontal.png,173,174,69,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#882641,Connection,Berlin,174-connection-070-berlin-up_and_horizontal.png,174,175,70,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#882641,Connection,Berlin,175-connection-071-berlin-left_and_vertical.png,175,176,71,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#a62a2a,Connection,Bernina,176-connection-072-bernina-vertical.png,176,177,72,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#a62a2a,Connection,Bernina,177-connection-073-bernina-horizontal.png,177,178,73,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#a62a2a,Connection,Bernina,178-connection-074-bernina-up_and_right.png,178,179,74,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#a62a2a,Connection,Bernina,179-connection-075-bernina-down_and_left.png,179,180,75,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#a62a2a,Connection,Bernina,180-connection-076-bernina-down_and_right.png,180,181,76,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#a62a2a,Connection,Bernina,181-connection-077-bernina-up_and_left.png,181,182,77,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#a62a2a,Connection,Bernina,182-connection-078-bernina-right_and_left_up.png,182,183,78,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#a62a2a,Connection,Bernina,183-connection-079-bernina-left_and_right_down.png,183,184,79,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#a62a2a,Connection,Bernina,184-connection-080-bernina-right_and_left_down.png,184,185,80,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#a62a2a,Connection,Bernina,185-connection-081-bernina-left_and_right_up.png,185,186,81,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#a62a2a,Connection,Bernina,186-connection-082-bernina-down_and_right_up.png,186,187,82,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#a62a2a,Connection,Bernina,187-connection-083-bernina-up_and_left_down.png,187,188,83,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#a62a2a,Connection,Bernina,188-connection-084-bernina-up_and_right_up.png,188,189,84,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#a62a2a,Connection,Bernina,189-connection-085-bernina-down_and_left_up.png,189,190,85,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#a62a2a,Connection,Bernina,190-connection-086-bernina-right_and_vertical.png,190,191,86,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#a62a2a,Connection,Bernina,191-connection-087-bernina-down_and_horizontal.png,191,192,87,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#a62a2a,Connection,Bernina,192-connection-088-bernina-up_and_horizontal.png,192,193,88,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#a62a2a,Connection,Bernina,193-connection-089-bernina-left_and_vertical.png,193,194,89,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#ca434e,Connection,Bruges,194-connection-090-bruges-vertical.png,194,195,90,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#ca434e,Connection,Bruges,195-connection-091-bruges-horizontal.png,195,196,91,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#ca434e,Connection,Bruges,196-connection-092-bruges-up_and_right.png,196,197,92,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#ca434e,Connection,Bruges,197-connection-093-bruges-down_and_left.png,197,198,93,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#ca434e,Connection,Bruges,198-connection-094-bruges-down_and_right.png,198,199,94,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#ca434e,Connection,Bruges,199-connection-095-bruges-up_and_left.png,199,200,95,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#ca434e,Connection,Bruges,200-connection-096-bruges-right_and_left_up.png,200,201,96,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#ca434e,Connection,Bruges,201-connection-097-bruges-left_and_right_down.png,201,202,97,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#ca434e,Connection,Bruges,202-connection-098-bruges-right_and_left_down.png,202,203,98,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#ca434e,Connection,Bruges,203-connection-099-bruges-left_and_right_up.png,203,204,99,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#ca434e,Connection,Bruges,204-connection-100-bruges-down_and_right_up.png,204,205,100,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#ca434e,Connection,Bruges,205-connection-101-bruges-up_and_left_down.png,205,206,101,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#ca434e,Connection,Bruges,206-connection-102-bruges-up_and_right_up.png,206,207,102,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#ca434e,Connection,Bruges,207-connection-103-bruges-down_and_left_up.png,207,208,103,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#ca434e,Connection,Bruges,208-connection-104-bruges-right_and_vertical.png,208,209,104,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#ca434e,Connection,Bruges,209-connection-105-bruges-down_and_horizontal.png,209,210,105,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#ca434e,Connection,Bruges,210-connection-106-bruges-up_and_horizontal.png,210,211,106,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#ca434e,Connection,Bruges,211-connection-107-bruges-left_and_vertical.png,211,212,107,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#69625f,Connection,Budapest,212-connection-108-budapest-vertical.png,212,213,108,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#69625f,Connection,Budapest,213-connection-109-budapest-horizontal.png,213,214,109,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#69625f,Connection,Budapest,214-connection-110-budapest-up_and_right.png,214,215,110,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#69625f,Connection,Budapest,215-connection-111-budapest-down_and_left.png,215,216,111,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#69625f,Connection,Budapest,216-connection-112-budapest-down_and_right.png,216,217,112,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#69625f,Connection,Budapest,217-connection-113-budapest-up_and_left.png,217,218,113,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#69625f,Connection,Budapest,218-connection-114-budapest-right_and_left_up.png,218,219,114,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#69625f,Connection,Budapest,219-connection-115-budapest-left_and_right_down.png,219,220,115,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#69625f,Connection,Budapest,220-connection-116-budapest-right_and_left_down.png,220,221,116,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#69625f,Connection,Budapest,221-connection-117-budapest-left_and_right_up.png,221,222,117,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#69625f,Connection,Budapest,222-connection-118-budapest-down_and_right_up.png,222,223,118,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#69625f,Connection,Budapest,223-connection-119-budapest-up_and_left_down.png,223,224,119,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#69625f,Connection,Budapest,224-connection-120-budapest-up_and_right_up.png,224,225,120,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#69625f,Connection,Budapest,225-connection-121-budapest-down_and_left_up.png,225,226,121,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#69625f,Connection,Budapest,226-connection-122-budapest-right_and_vertical.png,226,227,122,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#69625f,Connection,Budapest,227-connection-123-budapest-down_and_horizontal.png,227,228,123,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#69625f,Connection,Budapest,228-connection-124-budapest-up_and_horizontal.png,228,229,124,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#69625f,Connection,Budapest,229-connection-125-budapest-left_and_vertical.png,229,230,125,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#235723,Connection,Cologne,230-connection-126-cologne-vertical.png,230,231,126,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#235723,Connection,Cologne,231-connection-127-cologne-horizontal.png,231,232,127,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#235723,Connection,Cologne,232-connection-128-cologne-up_and_right.png,232,233,128,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#235723,Connection,Cologne,233-connection-129-cologne-down_and_left.png,233,234,129,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#235723,Connection,Cologne,234-connection-130-cologne-down_and_right.png,234,235,130,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#235723,Connection,Cologne,235-connection-131-cologne-up_and_left.png,235,236,131,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#235723,Connection,Cologne,236-connection-132-cologne-right_and_left_up.png,236,237,132,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#235723,Connection,Cologne,237-connection-133-cologne-left_and_right_down.png,237,238,133,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#235723,Connection,Cologne,238-connection-134-cologne-right_and_left_down.png,238,239,134,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#235723,Connection,Cologne,239-connection-135-cologne-left_and_right_up.png,239,240,135,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#235723,Connection,Cologne,240-connection-136-cologne-down_and_right_up.png,240,241,136,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#235723,Connection,Cologne,241-connection-137-cologne-up_and_left_down.png,241,242,137,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#235723,Connection,Cologne,242-connection-138-cologne-up_and_right_up.png,242,243,138,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#235723,Connection,Cologne,243-connection-139-cologne-down_and_left_up.png,243,244,139,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#235723,Connection,Cologne,244-connection-140-cologne-right_and_vertical.png,244,245,140,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#235723,Connection,Cologne,245-connection-141-cologne-down_and_horizontal.png,245,246,141,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#235723,Connection,Cologne,246-connection-142-cologne-up_and_horizontal.png,246,247,142,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#235723,Connection,Cologne,247-connection-143-cologne-left_and_vertical.png,247,248,143,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#bc633f,Connection,Copenhagen,248-connection-144-copenhagen-vertical.png,248,249,144,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#bc633f,Connection,Copenhagen,249-connection-145-copenhagen-horizontal.png,249,250,145,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#bc633f,Connection,Copenhagen,250-connection-146-copenhagen-up_and_right.png,250,251,146,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#bc633f,Connection,Copenhagen,251-connection-147-copenhagen-down_and_left.png,251,252,147,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#bc633f,Connection,Copenhagen,252-connection-148-copenhagen-down_and_right.png,252,253,148,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#bc633f,Connection,Copenhagen,253-connection-149-copenhagen-up_and_left.png,253,254,149,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#bc633f,Connection,Copenhagen,254-connection-150-copenhagen-right_and_left_up.png,254,255,150,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#bc633f,Connection,Copenhagen,255-connection-151-copenhagen-left_and_right_down.png,255,256,151,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#bc633f,Connection,Copenhagen,256-connection-152-copenhagen-right_and_left_down.png,256,257,152,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#bc633f,Connection,Copenhagen,257-connection-153-copenhagen-left_and_right_up.png,257,258,153,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#bc633f,Connection,Copenhagen,258-connection-154-copenhagen-down_and_right_up.png,258,259,154,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#bc633f,Connection,Copenhagen,259-connection-155-copenhagen-up_and_left_down.png,259,260,155,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#bc633f,Connection,Copenhagen,260-connection-156-copenhagen-up_and_right_up.png,260,261,156,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#bc633f,Connection,Copenhagen,261-connection-157-copenhagen-down_and_left_up.png,261,262,157,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#bc633f,Connection,Copenhagen,262-connection-158-copenhagen-right_and_vertical.png,262,263,158,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#bc633f,Connection,Copenhagen,263-connection-159-copenhagen-down_and_horizontal.png,263,264,159,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#bc633f,Connection,Copenhagen,264-connection-160-copenhagen-up_and_horizontal.png,264,265,160,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#bc633f,Connection,Copenhagen,265-connection-161-copenhagen-left_and_vertical.png,265,266,161,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#c8376f,Connection,Edinburgh,266-connection-162-edinburgh-vertical.png,266,267,162,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#c8376f,Connection,Edinburgh,267-connection-163-edinburgh-horizontal.png,267,268,163,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#c8376f,Connection,Edinburgh,268-connection-164-edinburgh-up_and_right.png,268,269,164,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#c8376f,Connection,Edinburgh,269-connection-165-edinburgh-down_and_left.png,269,270,165,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#c8376f,Connection,Edinburgh,270-connection-166-edinburgh-down_and_right.png,270,271,166,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#c8376f,Connection,Edinburgh,271-connection-167-edinburgh-up_and_left.png,271,272,167,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#c8376f,Connection,Edinburgh,272-connection-168-edinburgh-right_and_left_up.png,272,273,168,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#c8376f,Connection,Edinburgh,273-connection-169-edinburgh-left_and_right_down.png,273,274,169,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#c8376f,Connection,Edinburgh,274-connection-170-edinburgh-right_and_left_down.png,274,275,170,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#c8376f,Connection,Edinburgh,275-connection-171-edinburgh-left_and_right_up.png,275,276,171,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#c8376f,Connection,Edinburgh,276-connection-172-edinburgh-down_and_right_up.png,276,277,172,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#c8376f,Connection,Edinburgh,277-connection-173-edinburgh-up_and_left_down.png,277,278,173,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#c8376f,Connection,Edinburgh,278-connection-174-edinburgh-up_and_right_up.png,278,279,174,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#c8376f,Connection,Edinburgh,279-connection-175-edinburgh-down_and_left_up.png,279,280,175,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#c8376f,Connection,Edinburgh,280-connection-176-edinburgh-right_and_vertical.png,280,281,176,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#c8376f,Connection,Edinburgh,281-connection-177-edinburgh-down_and_horizontal.png,281,282,177,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#c8376f,Connection,Edinburgh,282-connection-178-edinburgh-up_and_horizontal.png,282,283,178,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#c8376f,Connection,Edinburgh,283-connection-179-edinburgh-left_and_vertical.png,283,284,179,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#ed6238,Connection,Florence,284-connection-180-florence-vertical.png,284,285,180,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#ed6238,Connection,Florence,285-connection-181-florence-horizontal.png,285,286,181,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#ed6238,Connection,Florence,286-connection-182-florence-up_and_right.png,286,287,182,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#ed6238,Connection,Florence,287-connection-183-florence-down_and_left.png,287,288,183,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#ed6238,Connection,Florence,288-connection-184-florence-down_and_right.png,288,289,184,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#ed6238,Connection,Florence,289-connection-185-florence-up_and_left.png,289,290,185,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#ed6238,Connection,Florence,290-connection-186-florence-right_and_left_up.png,290,291,186,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#ed6238,Connection,Florence,291-connection-187-florence-left_and_right_down.png,291,292,187,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#ed6238,Connection,Florence,292-connection-188-florence-right_and_left_down.png,292,293,188,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#ed6238,Connection,Florence,293-connection-189-florence-left_and_right_up.png,293,294,189,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#ed6238,Connection,Florence,294-connection-190-florence-down_and_right_up.png,294,295,190,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#ed6238,Connection,Florence,295-connection-191-florence-up_and_left_down.png,295,296,191,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#ed6238,Connection,Florence,296-connection-192-florence-up_and_right_up.png,296,297,192,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#ed6238,Connection,Florence,297-connection-193-florence-down_and_left_up.png,297,298,193,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#ed6238,Connection,Florence,298-connection-194-florence-right_and_vertical.png,298,299,194,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#ed6238,Connection,Florence,299-connection-195-florence-down_and_horizontal.png,299,300,195,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#ed6238,Connection,Florence,300-connection-196-florence-up_and_horizontal.png,300,301,196,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#ed6238,Connection,Florence,301-connection-197-florence-left_and_vertical.png,301,302,197,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#ce7575,Connection,Gothenburg,302-connection-198-gothenburg-vertical.png,302,303,198,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#ce7575,Connection,Gothenburg,303-connection-199-gothenburg-horizontal.png,303,304,199,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#ce7575,Connection,Gothenburg,304-connection-200-gothenburg-up_and_right.png,304,305,200,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#ce7575,Connection,Gothenburg,305-connection-201-gothenburg-down_and_left.png,305,306,201,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#ce7575,Connection,Gothenburg,306-connection-202-gothenburg-down_and_right.png,306,307,202,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#ce7575,Connection,Gothenburg,307-connection-203-gothenburg-up_and_left.png,307,308,203,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#ce7575,Connection,Gothenburg,308-connection-204-gothenburg-right_and_left_up.png,308,309,204,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#ce7575,Connection,Gothenburg,309-connection-205-gothenburg-left_and_right_down.png,309,310,205,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#ce7575,Connection,Gothenburg,310-connection-206-gothenburg-right_and_left_down.png,310,311,206,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#ce7575,Connection,Gothenburg,311-connection-207-gothenburg-left_and_right_up.png,311,312,207,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#ce7575,Connection,Gothenburg,312-connection-208-gothenburg-down_and_right_up.png,312,313,208,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#ce7575,Connection,Gothenburg,313-connection-209-gothenburg-up_and_left_down.png,313,314,209,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#ce7575,Connection,Gothenburg,314-connection-210-gothenburg-up_and_right_up.png,314,315,210,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#ce7575,Connection,Gothenburg,315-connection-211-gothenburg-down_and_left_up.png,315,316,211,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#ce7575,Connection,Gothenburg,316-connection-212-gothenburg-right_and_vertical.png,316,317,212,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#ce7575,Connection,Gothenburg,317-connection-213-gothenburg-down_and_horizontal.png,317,318,213,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#ce7575,Connection,Gothenburg,318-connection-214-gothenburg-up_and_horizontal.png,318,319,214,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#ce7575,Connection,Gothenburg,319-connection-215-gothenburg-left_and_vertical.png,319,320,215,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#9d6ace,Connection,London,320-connection-216-london-vertical.png,320,321,216,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#9d6ace,Connection,London,321-connection-217-london-horizontal.png,321,322,217,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#9d6ace,Connection,London,322-connection-218-london-up_and_right.png,322,323,218,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#9d6ace,Connection,London,323-connection-219-london-down_and_left.png,323,324,219,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#9d6ace,Connection,London,324-connection-220-london-down_and_right.png,324,325,220,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#9d6ace,Connection,London,325-connection-221-london-up_and_left.png,325,326,221,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#9d6ace,Connection,London,326-connection-222-london-right_and_left_up.png,326,327,222,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#9d6ace,Connection,London,327-connection-223-london-left_and_right_down.png,327,328,223,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#9d6ace,Connection,London,328-connection-224-london-right_and_left_down.png,328,329,224,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#9d6ace,Connection,London,329-connection-225-london-left_and_right_up.png,329,330,225,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#9d6ace,Connection,London,330-connection-226-london-down_and_right_up.png,330,331,226,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#9d6ace,Connection,London,331-connection-227-london-up_and_left_down.png,331,332,227,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#9d6ace,Connection,London,332-connection-228-london-up_and_right_up.png,332,333,228,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#9d6ace,Connection,London,333-connection-229-london-down_and_left_up.png,333,334,229,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#9d6ace,Connection,London,334-connection-230-london-right_and_vertical.png,334,335,230,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#9d6ace,Connection,London,335-connection-231-london-down_and_horizontal.png,335,336,231,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#9d6ace,Connection,London,336-connection-232-london-up_and_horizontal.png,336,337,232,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#9d6ace,Connection,London,337-connection-233-london-left_and_vertical.png,337,338,233,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#774e2d,Connection,Lyon,338-connection-234-lyon-vertical.png,338,339,234,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#774e2d,Connection,Lyon,339-connection-235-lyon-horizontal.png,339,340,235,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#774e2d,Connection,Lyon,340-connection-236-lyon-up_and_right.png,340,341,236,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#774e2d,Connection,Lyon,341-connection-237-lyon-down_and_left.png,341,342,237,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#774e2d,Connection,Lyon,342-connection-238-lyon-down_and_right.png,342,343,238,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#774e2d,Connection,Lyon,343-connection-239-lyon-up_and_left.png,343,344,239,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#774e2d,Connection,Lyon,344-connection-240-lyon-right_and_left_up.png,344,345,240,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#774e2d,Connection,Lyon,345-connection-241-lyon-left_and_right_down.png,345,346,241,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#774e2d,Connection,Lyon,346-connection-242-lyon-right_and_left_down.png,346,347,242,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#774e2d,Connection,Lyon,347-connection-243-lyon-left_and_right_up.png,347,348,243,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#774e2d,Connection,Lyon,348-connection-244-lyon-down_and_right_up.png,348,349,244,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#774e2d,Connection,Lyon,349-connection-245-lyon-up_and_left_down.png,349,350,245,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#774e2d,Connection,Lyon,350-connection-246-lyon-up_and_right_up.png,350,351,246,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#774e2d,Connection,Lyon,351-connection-247-lyon-down_and_left_up.png,351,352,247,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#774e2d,Connection,Lyon,352-connection-248-lyon-right_and_vertical.png,352,353,248,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#774e2d,Connection,Lyon,353-connection-249-lyon-down_and_horizontal.png,353,354,249,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#774e2d,Connection,Lyon,354-connection-250-lyon-up_and_horizontal.png,354,355,250,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#774e2d,Connection,Lyon,355-connection-251-lyon-left_and_vertical.png,355,356,251,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#7d489f,Connection,Madrid,356-connection-252-madrid-vertical.png,356,357,252,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#7d489f,Connection,Madrid,357-connection-253-madrid-horizontal.png,357,358,253,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#7d489f,Connection,Madrid,358-connection-254-madrid-up_and_right.png,358,359,254,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#7d489f,Connection,Madrid,359-connection-255-madrid-down_and_left.png,359,360,255,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#7d489f,Connection,Madrid,360-connection-256-madrid-down_and_right.png,360,361,256,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#7d489f,Connection,Madrid,361-connection-257-madrid-up_and_left.png,361,362,257,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#7d489f,Connection,Madrid,362-connection-258-madrid-right_and_left_up.png,362,363,258,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#7d489f,Connection,Madrid,363-connection-259-madrid-left_and_right_down.png,363,364,259,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#7d489f,Connection,Madrid,364-connection-260-madrid-right_and_left_down.png,364,365,260,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#7d489f,Connection,Madrid,365-connection-261-madrid-left_and_right_up.png,365,366,261,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#7d489f,Connection,Madrid,366-connection-262-madrid-down_and_right_up.png,366,367,262,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#7d489f,Connection,Madrid,367-connection-263-madrid-up_and_left_down.png,367,368,263,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#7d489f,Connection,Madrid,368-connection-264-madrid-up_and_right_up.png,368,369,264,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#7d489f,Connection,Madrid,369-connection-265-madrid-down_and_left_up.png,369,370,265,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#7d489f,Connection,Madrid,370-connection-266-madrid-right_and_vertical.png,370,371,266,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#7d489f,Connection,Madrid,371-connection-267-madrid-down_and_horizontal.png,371,372,267,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#7d489f,Connection,Madrid,372-connection-268-madrid-up_and_horizontal.png,372,373,268,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#7d489f,Connection,Madrid,373-connection-269-madrid-left_and_vertical.png,373,374,269,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#383838,Connection,Matterhorn,374-connection-270-matterhorn-vertical.png,374,375,270,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#383838,Connection,Matterhorn,375-connection-271-matterhorn-horizontal.png,375,376,271,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#383838,Connection,Matterhorn,376-connection-272-matterhorn-up_and_right.png,376,377,272,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#383838,Connection,Matterhorn,377-connection-273-matterhorn-down_and_left.png,377,378,273,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#383838,Connection,Matterhorn,378-connection-274-matterhorn-down_and_right.png,378,379,274,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#383838,Connection,Matterhorn,379-connection-275-matterhorn-up_and_left.png,379,380,275,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#383838,Connection,Matterhorn,380-connection-276-matterhorn-right_and_left_up.png,380,381,276,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#383838,Connection,Matterhorn,381-connection-277-matterhorn-left_and_right_down.png,381,382,277,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#383838,Connection,Matterhorn,382-connection-278-matterhorn-right_and_left_down.png,382,383,278,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#383838,Connection,Matterhorn,383-connection-279-matterhorn-left_and_right_up.png,383,384,279,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#383838,Connection,Matterhorn,384-connection-280-matterhorn-down_and_right_up.png,384,385,280,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#383838,Connection,Matterhorn,385-connection-281-matterhorn-up_and_left_down.png,385,386,281,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#383838,Connection,Matterhorn,386-connection-282-matterhorn-up_and_right_up.png,386,387,282,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#383838,Connection,Matterhorn,387-connection-283-matterhorn-down_and_left_up.png,387,388,283,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#383838,Connection,Matterhorn,388-connection-284-matterhorn-right_and_vertical.png,388,389,284,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#383838,Connection,Matterhorn,389-connection-285-matterhorn-down_and_horizontal.png,389,390,285,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#383838,Connection,Matterhorn,390-connection-286-matterhorn-up_and_horizontal.png,390,391,286,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#383838,Connection,Matterhorn,391-connection-287-matterhorn-left_and_vertical.png,391,392,287,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#00586f,Connection,Millau,392-connection-288-millau-vertical.png,392,393,288,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#00586f,Connection,Millau,393-connection-289-millau-horizontal.png,393,394,289,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#00586f,Connection,Millau,394-connection-290-millau-up_and_right.png,394,395,290,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#00586f,Connection,Millau,395-connection-291-millau-down_and_left.png,395,396,291,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#00586f,Connection,Millau,396-connection-292-millau-down_and_right.png,396,397,292,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#00586f,Connection,Millau,397-connection-293-millau-up_and_left.png,397,398,293,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#00586f,Connection,Millau,398-connection-294-millau-right_and_left_up.png,398,399,294,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#00586f,Connection,Millau,399-connection-295-millau-left_and_right_down.png,399,400,295,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#00586f,Connection,Millau,400-connection-296-millau-right_and_left_down.png,400,401,296,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#00586f,Connection,Millau,401-connection-297-millau-left_and_right_up.png,401,402,297,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#00586f,Connection,Millau,402-connection-298-millau-down_and_right_up.png,402,403,298,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#00586f,Connection,Millau,403-connection-299-millau-up_and_left_down.png,403,404,299,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#00586f,Connection,Millau,404-connection-300-millau-up_and_right_up.png,404,405,300,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#00586f,Connection,Millau,405-connection-301-millau-down_and_left_up.png,405,406,301,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#00586f,Connection,Millau,406-connection-302-millau-right_and_vertical.png,406,407,302,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#00586f,Connection,Millau,407-connection-303-millau-down_and_horizontal.png,407,408,303,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#00586f,Connection,Millau,408-connection-304-millau-up_and_horizontal.png,408,409,304,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#00586f,Connection,Millau,409-connection-305-millau-left_and_vertical.png,409,410,305,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#1e6ed8,Connection,Mons,410-connection-306-mons-vertical.png,410,411,306,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#1e6ed8,Connection,Mons,411-connection-307-mons-horizontal.png,411,412,307,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#1e6ed8,Connection,Mons,412-connection-308-mons-up_and_right.png,412,413,308,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#1e6ed8,Connection,Mons,413-connection-309-mons-down_and_left.png,413,414,309,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#1e6ed8,Connection,Mons,414-connection-310-mons-down_and_right.png,414,415,310,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#1e6ed8,Connection,Mons,415-connection-311-mons-up_and_left.png,415,416,311,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#1e6ed8,Connection,Mons,416-connection-312-mons-right_and_left_up.png,416,417,312,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#1e6ed8,Connection,Mons,417-connection-313-mons-left_and_right_down.png,417,418,313,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#1e6ed8,Connection,Mons,418-connection-314-mons-right_and_left_down.png,418,419,314,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#1e6ed8,Connection,Mons,419-connection-315-mons-left_and_right_up.png,419,420,315,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#1e6ed8,Connection,Mons,420-connection-316-mons-down_and_right_up.png,420,421,316,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#1e6ed8,Connection,Mons,421-connection-317-mons-up_and_left_down.png,421,422,317,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#1e6ed8,Connection,Mons,422-connection-318-mons-up_and_right_up.png,422,423,318,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#1e6ed8,Connection,Mons,423-connection-319-mons-down_and_left_up.png,423,424,319,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#1e6ed8,Connection,Mons,424-connection-320-mons-right_and_vertical.png,424,425,320,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#1e6ed8,Connection,Mons,425-connection-321-mons-down_and_horizontal.png,425,426,321,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#1e6ed8,Connection,Mons,426-connection-322-mons-up_and_horizontal.png,426,427,322,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#1e6ed8,Connection,Mons,427-connection-323-mons-left_and_vertical.png,427,428,323,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#138498,Connection,Mostar,428-connection-324-mostar-vertical.png,428,429,324,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#138498,Connection,Mostar,429-connection-325-mostar-horizontal.png,429,430,325,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#138498,Connection,Mostar,430-connection-326-mostar-up_and_right.png,430,431,326,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#138498,Connection,Mostar,431-connection-327-mostar-down_and_left.png,431,432,327,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#138498,Connection,Mostar,432-connection-328-mostar-down_and_right.png,432,433,328,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#138498,Connection,Mostar,433-connection-329-mostar-up_and_left.png,433,434,329,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#138498,Connection,Mostar,434-connection-330-mostar-right_and_left_up.png,434,435,330,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#138498,Connection,Mostar,435-connection-331-mostar-left_and_right_down.png,435,436,331,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#138498,Connection,Mostar,436-connection-332-mostar-right_and_left_down.png,436,437,332,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#138498,Connection,Mostar,437-connection-333-mostar-left_and_right_up.png,437,438,333,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#138498,Connection,Mostar,438-connection-334-mostar-down_and_right_up.png,438,439,334,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#138498,Connection,Mostar,439-connection-335-mostar-up_and_left_down.png,439,440,335,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#138498,Connection,Mostar,440-connection-336-mostar-up_and_right_up.png,440,441,336,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#138498,Connection,Mostar,441-connection-337-mostar-down_and_left_up.png,441,442,337,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#138498,Connection,Mostar,442-connection-338-mostar-right_and_vertical.png,442,443,338,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#138498,Connection,Mostar,443-connection-339-mostar-down_and_horizontal.png,443,444,339,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#138498,Connection,Mostar,444-connection-340-mostar-up_and_horizontal.png,444,445,340,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#138498,Connection,Mostar,445-connection-341-mostar-left_and_vertical.png,445,446,341,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#bd6ea3,Connection,Paris,446-connection-342-paris-vertical.png,446,447,342,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#bd6ea3,Connection,Paris,447-connection-343-paris-horizontal.png,447,448,343,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#bd6ea3,Connection,Paris,448-connection-344-paris-up_and_right.png,448,449,344,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#bd6ea3,Connection,Paris,449-connection-345-paris-down_and_left.png,449,450,345,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#bd6ea3,Connection,Paris,450-connection-346-paris-down_and_right.png,450,451,346,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#bd6ea3,Connection,Paris,451-connection-347-paris-up_and_left.png,451,452,347,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#bd6ea3,Connection,Paris,452-connection-348-paris-right_and_left_up.png,452,453,348,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#bd6ea3,Connection,Paris,453-connection-349-paris-left_and_right_down.png,453,454,349,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#bd6ea3,Connection,Paris,454-connection-350-paris-right_and_left_down.png,454,455,350,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#bd6ea3,Connection,Paris,455-connection-351-paris-left_and_right_up.png,455,456,351,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#bd6ea3,Connection,Paris,456-connection-352-paris-down_and_right_up.png,456,457,352,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#bd6ea3,Connection,Paris,457-connection-353-paris-up_and_left_down.png,457,458,353,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#bd6ea3,Connection,Paris,458-connection-354-paris-up_and_right_up.png,458,459,354,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#bd6ea3,Connection,Paris,459-connection-355-paris-down_and_left_up.png,459,460,355,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#bd6ea3,Connection,Paris,460-connection-356-paris-right_and_vertical.png,460,461,356,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#bd6ea3,Connection,Paris,461-connection-357-paris-down_and_horizontal.png,461,462,357,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#bd6ea3,Connection,Paris,462-connection-358-paris-up_and_horizontal.png,462,463,358,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#bd6ea3,Connection,Paris,463-connection-359-paris-left_and_vertical.png,463,464,359,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#748919,Connection,Prague,464-connection-360-prague-vertical.png,464,465,360,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#748919,Connection,Prague,465-connection-361-prague-horizontal.png,465,466,361,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#748919,Connection,Prague,466-connection-362-prague-up_and_right.png,466,467,362,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#748919,Connection,Prague,467-connection-363-prague-down_and_left.png,467,468,363,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#748919,Connection,Prague,468-connection-364-prague-down_and_right.png,468,469,364,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#748919,Connection,Prague,469-connection-365-prague-up_and_left.png,469,470,365,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#748919,Connection,Prague,470-connection-366-prague-right_and_left_up.png,470,471,366,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#748919,Connection,Prague,471-connection-367-prague-left_and_right_down.png,471,472,367,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#748919,Connection,Prague,472-connection-368-prague-right_and_left_down.png,472,473,368,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#748919,Connection,Prague,473-connection-369-prague-left_and_right_up.png,473,474,369,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#748919,Connection,Prague,474-connection-370-prague-down_and_right_up.png,474,475,370,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#748919,Connection,Prague,475-connection-371-prague-up_and_left_down.png,475,476,371,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#748919,Connection,Prague,476-connection-372-prague-up_and_right_up.png,476,477,372,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#748919,Connection,Prague,477-connection-373-prague-down_and_left_up.png,477,478,373,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#748919,Connection,Prague,478-connection-374-prague-right_and_vertical.png,478,479,374,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#748919,Connection,Prague,479-connection-375-prague-down_and_horizontal.png,479,480,375,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#748919,Connection,Prague,480-connection-376-prague-up_and_horizontal.png,480,481,376,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#748919,Connection,Prague,481-connection-377-prague-left_and_vertical.png,481,482,377,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#40af62,Connection,Verdon,482-connection-378-verdon-vertical.png,482,483,378,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#40af62,Connection,Verdon,483-connection-379-verdon-horizontal.png,483,484,379,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#40af62,Connection,Verdon,484-connection-380-verdon-up_and_right.png,484,485,380,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#40af62,Connection,Verdon,485-connection-381-verdon-down_and_left.png,485,486,381,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#40af62,Connection,Verdon,486-connection-382-verdon-down_and_right.png,486,487,382,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#40af62,Connection,Verdon,487-connection-383-verdon-up_and_left.png,487,488,383,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#40af62,Connection,Verdon,488-connection-384-verdon-right_and_left_up.png,488,489,384,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#40af62,Connection,Verdon,489-connection-385-verdon-left_and_right_down.png,489,490,385,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#40af62,Connection,Verdon,490-connection-386-verdon-right_and_left_down.png,490,491,386,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#40af62,Connection,Verdon,491-connection-387-verdon-left_and_right_up.png,491,492,387,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#40af62,Connection,Verdon,492-connection-388-verdon-down_and_right_up.png,492,493,388,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#40af62,Connection,Verdon,493-connection-389-verdon-up_and_left_down.png,493,494,389,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#40af62,Connection,Verdon,494-connection-390-verdon-up_and_right_up.png,494,495,390,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#40af62,Connection,Verdon,495-connection-391-verdon-down_and_left_up.png,495,496,391,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#40af62,Connection,Verdon,496-connection-392-verdon-right_and_vertical.png,496,497,392,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#40af62,Connection,Verdon,497-connection-393-verdon-down_and_horizontal.png,497,498,393,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#40af62,Connection,Verdon,498-connection-394-verdon-up_and_horizontal.png,498,499,394,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#40af62,Connection,Verdon,499-connection-395-verdon-left_and_vertical.png,499,500,395,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+│,Vertical,#415396,Connection,Warsaw,500-connection-396-warsaw-vertical.png,500,501,396,,,,,,,FALSE,0,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+─,Horizontal,#415396,Connection,Warsaw,501-connection-397-warsaw-horizontal.png,501,502,397,,,,,,,FALSE,0,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
+└,Up and Right,#415396,Connection,Warsaw,502-connection-398-warsaw-up_and_right.png,502,503,398,,,,,,,FALSE,0,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+┐,Down and Left,#415396,Connection,Warsaw,503-connection-399-warsaw-down_and_left.png,503,504,399,,,,,,,FALSE,0,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+┌,Down and Right,#415396,Connection,Warsaw,504-connection-400-warsaw-down_and_right.png,504,505,400,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+┘,Up and Left,#415396,Connection,Warsaw,505-connection-401-warsaw-up_and_left.png,505,506,401,,,,,,,FALSE,0,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
+┶,Right and Left Up,#415396,Connection,Warsaw,506-connection-402-warsaw-right_and_left_up.png,506,507,402,,,,,,,TRUE,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+┭,Left and Right Down,#415396,Connection,Warsaw,507-connection-403-warsaw-left_and_right_down.png,507,508,403,,,,,,,TRUE,1,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE
+┮,Right and Left Down,#415396,Connection,Warsaw,508-connection-404-warsaw-right_and_left_down.png,508,509,404,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
+┵,Left and Right Up,#415396,Connection,Warsaw,509-connection-405-warsaw-left_and_right_up.png,509,510,405,,,,,,,TRUE,1,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE
+┟,Down and Right Up,#415396,Connection,Warsaw,510-connection-406-warsaw-down_and_right_up.png,510,511,406,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┦,Up and Left Down,#415396,Connection,Warsaw,511-connection-407-warsaw-up_and_left_down.png,511,512,407,,,,,,,TRUE,1,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
+┞,Up and Right Up,#415396,Connection,Warsaw,512-connection-408-warsaw-up_and_right_up.png,512,513,408,,,,,,,TRUE,1,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+┧,Down and Left Up,#415396,Connection,Warsaw,513-connection-409-warsaw-down_and_left_up.png,513,514,409,,,,,,,TRUE,1,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE
+┝,Right and Vertical,#415396,Connection,Warsaw,514-connection-410-warsaw-right_and_vertical.png,514,515,410,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┰,Down and Horizontal,#415396,Connection,Warsaw,515-connection-411-warsaw-down_and_horizontal.png,515,516,411,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+┸,Up and Horizontal,#415396,Connection,Warsaw,516-connection-412-warsaw-up_and_horizontal.png,516,517,412,,,,,,,TRUE,1,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE
+┥,Left and Vertical,#415396,Connection,Warsaw,517-connection-413-warsaw-left_and_vertical.png,517,518,413,,,,,,,TRUE,1,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
