@@ -170,7 +170,7 @@ There are 5 different environment tiles, of which some have different styles of 
 * They cannot be built upon.
 
 #### Locations
-As of January 2022, there are a total of 30 different locations in game.
+As of January 2023, there are a total of 30 different locations in game.
 
 A lot of the earlier details such as what order which locations were unlocked or released in are no longer easily found without restarting the game, however looking at the game's [version history][history], the determined order is:
 
