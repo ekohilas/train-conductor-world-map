@@ -3,7 +3,7 @@
 **[Train Conductor World][tcw]** is mobile game (for [iOS][ios] and [Android][and]) by [The Voxel Agents][tva].
 The game has several cities on a world map (currently, only European cities).
 
-This repository (forked from [a GitHub Gist][gist]) is an effort to replicate the game world map outside the game, and to help plan in-game routes.
+This repository (forked from [a GitHub Gist][gist]) is an effort to replicate the game world map outside the game, and to help plan in-game routes, such as with [Train Conductor World Tools][tcwt]
 
 [Tiled Map Editor][tiled] was used to rebuild the map, and [ImageMagick][im] to automatically generate the graphics.
 
@@ -294,3 +294,4 @@ It is believed[^4] that there are total of 42 track tiles, with 6 of them being 
 [fb]: https://www.facebook.com/TrainConductorGame/
 [unicode]: https://en.wikipedia.org/wiki/Box-drawing_character
 [opss]: https://play-lh.googleusercontent.com/KQezcCnX6tzBYb_3PMf8F0ZA2xN3X4MaDPm1DzbQKJtaFe9W7ul6QL4rE1H7-D_Zkac=w720-h310-rw
+[tcwt]: https://github.com/ekohilas/train-conductor-world-tools
