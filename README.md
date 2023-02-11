@@ -176,13 +176,13 @@ A lot of the earlier details such as what order which locations were unlocked or
 
 1. Prague & Warsaw [[v1.3](https://www.ipa4fun.com/ipa/64334/)]
 2. "UK & Scandinavia" (Assumed to be Copenhagen, Edinburgh, Gothenburg, Grimsby,  London) [[1.4](https://www.ipa4fun.com/ipa/68834/)]
-3. Bernina [[1.6](https://www.ipa4fun.com/ipa/81402/)]
-4. Belfast [[1.8](https://www.ipa4fun.com/ipa/92847/)]
-5. Mostar [[1.10](https://www.ipa4fun.com/ipa/106999/)]
-6. Madrid [[1.12](https://www.ipa4fun.com/ipa/124229/)]
-7. Budapest [[1.14.1](https://www.ipa4fun.com/ipa/267007/)]
-8. Florence [[19.0](https://www.ipa4fun.com/ipa/578209/)]
-9. Porto [[20.1](https://www.ipa4fun.com/ipa/625102/)]
+3. Bernina [[v1.6](https://www.ipa4fun.com/ipa/81402/)]
+4. Belfast [[v1.8](https://www.ipa4fun.com/ipa/92847/)]
+5. Mostar [[v1.10](https://www.ipa4fun.com/ipa/106999/)]
+6. Madrid [[v1.12](https://www.ipa4fun.com/ipa/124229/)]
+7. Budapest [[v1.14.1](https://www.ipa4fun.com/ipa/267007/)]
+8. Florence [[v19.0](https://www.ipa4fun.com/ipa/578209/)]
+9. Porto [[v20.1](https://www.ipa4fun.com/ipa/625102/)]
 
 
 ##### Cities
