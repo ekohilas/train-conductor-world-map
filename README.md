@@ -172,7 +172,7 @@ There are 5 different environment tiles, of which some have different styles of 
 #### Locations
 As of January 2022, there are a total of 29 different locations in game.
 
-A lot of the earlier details such as what order which locations were unlocked or released in are no longer easily found without restarting the game, however looking at the game's [version history][history], the determined is:
+A lot of the earlier details such as what order which locations were unlocked or released in are no longer easily found without restarting the game, however looking at the game's [version history][history], the determined order is:
 
 1. Prague & Warsaw [[v1.3](https://www.ipa4fun.com/ipa/64334/)]
 2. "UK & Scandinavia" (Assumed to be Copenhagen, Edinburgh, Gothenburg, Grimsby,  London) [[1.4](https://www.ipa4fun.com/ipa/68834/)]
