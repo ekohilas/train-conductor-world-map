@@ -182,6 +182,7 @@ A lot of the earlier details such as what order which locations were unlocked or
 6. Madrid [[v1.12](https://www.ipa4fun.com/ipa/124229/)]
 7. Budapest [[v1.14.1](https://www.ipa4fun.com/ipa/267007/)]
 8. Florence [[v19.0](https://www.ipa4fun.com/ipa/578209/)]
+9. Porto [[v20.1](https://www.ipa4fun.com/ipa/625102/)]
 
 ##### Cities
 There are 24 playable cities:
