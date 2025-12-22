@@ -1,0 +1,8 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "train-conductor-world-map"
+version = "2025.12.23.0"
+source = { virtual = "." }

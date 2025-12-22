@@ -1,0 +1,13 @@
+[project]
+name = "train-conductor-world-map"
+description = "Tools for processing the map of Train Conductor World"
+version = "2025.12.23.0"
+readme = "README.md"
+authors = [
+    { name = "Evan Kohilas" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+train-conductor-world-map = "train_conductor_world_map:main"
