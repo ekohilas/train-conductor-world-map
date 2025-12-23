@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
-      - run: uv run test.py tiles.csv map.csv train-conductor-world.tmx
+      - run: uv run pytest 

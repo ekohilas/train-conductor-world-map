@@ -1,30 +1,31 @@
 #!/usr/bin/env python3
-import sys
 import csv
 import xml.etree.ElementTree
+from pathlib import Path
+import pytest
 
-def main():
-    if len(sys.argv) != 4:
-        print(f"Usage: {sys.argv[0]} <tiles.csv> <map.csv> <train-conductor-world.tmx>")
-        raise SystemExit
-    _, tiles_filename, map_filename, tmx_filename = sys.argv
+@pytest.fixture
+def project_root():
+    return Path(__file__).parent.parent
 
-    tiles = read_tiles(tiles_filename)
-    id_to_tile = get_id_to_tile(tiles)
-    csv_map = read_csv_map(map_filename)
-    tmx_map = read_map_from_tmx(tmx_filename)
+@pytest.fixture
+def tiles(project_root):
+    tiles_filename = project_root / "tiles.csv"
+    return read_tiles(tiles_filename)
 
-    run_tests(id_to_tile, csv_map, tmx_map)
+@pytest.fixture
+def id_to_tile(tiles):
+    return get_id_to_tile(tiles)
 
-def run_tests(id_to_tile, csv_map, tmx_map):
+@pytest.fixture
+def csv_map(project_root):
+    map_filename = project_root / "map.csv"
+    return read_csv_map(map_filename)
 
-    test_map_tile_ids_in_csv(csv_map, id_to_tile)
-    test_map_tile_id_maps_to_group(csv_map, id_to_tile)
-    test_map_tile_id_tmx_id(csv_map, id_to_tile)
-    test_tmx_csv_same_size_as_map_csv(csv_map, tmx_map)
-    test_tmx_csv_equivalent_to_map_csv(csv_map, tmx_map)
-    test_location_positions(csv_map, id_to_tile)
-    print("All tests passed. You are awesome!")
+@pytest.fixture
+def tmx_map(project_root):
+    tmx_filename = project_root / "train-conductor-world.tmx"
+    return read_map_from_tmx(tmx_filename)
 
 def test_map_tile_ids_in_csv(csv_map, id_to_tile):
     tile_ids = set()
@@ -105,6 +106,3 @@ def read_tiles(tiles_filename):
         for row in reader:
             tiles.append(row)
     return tiles
-
-if __name__ == "__main__":
-    main()
