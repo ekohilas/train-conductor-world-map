@@ -7,7 +7,9 @@ authors = [
     { name = "Evan Kohilas" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pytest>=9.0.2",
+]
 
 [project.scripts]
 train-conductor-world-map = "train_conductor_world_map:main"
