@@ -16,3 +16,11 @@ jobs:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
       - run: uv run pytest 
+  check-generate-tiles:
+    # TODO: Replace with ubuntu-latest when imagemagick7 is available
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: brew install imagemagick
+      - run: sh ./generate_tiles.sh ./tiles.csv tiles
+      - run: git diff --exit-code tiles
