@@ -1,6 +1,6 @@
 #!/bin/sh
 
-overwrite=""
+overwrite="true"
 
 main()
 {
@@ -208,6 +208,7 @@ generate_straight_planks()
         -strokewidth "$plank_width" \
         +antialias \
         -draw "$paths" \
+        -strip \
         "$base_straight_planks"
 
     log "Saved      base straight planks to $base_straight_planks"
@@ -250,6 +251,7 @@ generate_straight_rails()
         -draw "path 'M 0,$rail_center_y l $width,0'" \
         \( +clone -flip \) \
         -composite \
+        -strip \
         "$base_straight_rails"
 
     log "Saved      base straight rails to $base_straight_rails"
@@ -282,6 +284,7 @@ generate_curve_track()
         -channel G \
         -fx 'atan((j+0.5)/(i+0.5))*2/pi' \
         -separate \
+        -strip \
         "$map_p_angle"
 
     convert \
@@ -290,6 +293,7 @@ generate_curve_track()
         -channel G \
         -fx '1-hypot(i,j)/w' \
         -separate \
+        -strip \
         "$map_p_radius"
 
     generate_curve_planks \
@@ -327,6 +331,7 @@ generate_curve_planks()
         -interpolate integer \
         -fx 'p{u[1].g*w,u[2].g*h}' \
         -rotate 90 \
+        -strip \
         "$base_curve_planks"
 
     log "Saved      base curve planks to $base_curve_planks"
@@ -370,6 +375,7 @@ generate_curve_rails()
         \( "$base_straight_rails" -crop "1x${height}+0+0" \) \
         -composite \
         -rotate 90 \
+        -strip \
         "$base_curve_rails"
 
     log "Saved      base curve rails to $base_curve_rails"
@@ -413,6 +419,7 @@ generate_straight_connection()
         -strokewidth "$connection_width" \
         +antialias \
         -draw "path 'M 0,$connection_center_y l $width,0'" \
+        -strip \
         "$base_straight_connection"
 
     log "Saved      base straight connnection to $base_straight_connection"
@@ -444,6 +451,7 @@ generate_curve_connection()
         -channel G \
         -fx 'atan((j+0.5)/(i+0.5))*2/pi' \
         -separate \
+        -strip \
         "$map_p_angle"
 
     convert \
@@ -452,6 +460,7 @@ generate_curve_connection()
         -channel G \
         -fx '1-hypot(i,j)/w' \
         -separate \
+        -strip \
         "$map_p_radius"
 
     convert "$base_straight_connection" \
@@ -466,6 +475,7 @@ generate_curve_connection()
         \( "$base_straight_connection" -crop "1x${height}+0+0" \) \
         -composite \
         -rotate 90 \
+        -strip \
         "$base_curve_connection"
     log "Saved      curve connection to $base_curve_connection"
 }
@@ -651,6 +661,7 @@ generate_environment()
         +antialias \
         -fill white \
         -draw "$paths" \
+        -strip \
         "$filename"
 
     log " Done!"
@@ -714,6 +725,7 @@ generate_location()
         -fill "$color" \
         label:"$text" \
         -composite \
+        -strip \
         "$filename"
 
     log " Done!"
@@ -833,6 +845,7 @@ generate_track()
         $planks \
         $rails \
         -layers flatten \
+        -strip \
         "$filename"
 
     log " Done!"
@@ -924,6 +937,7 @@ generate_connection()
         -channel RGB \
         canvas:"$color" \
         -clut \
+        -strip \
         "$filename"
 
     log " Done!"
