@@ -721,7 +721,7 @@ generate_location()
         -pointsize 17 \
         -background none \
         -gravity center \
-        -font "Liberation-Serif-Bold" \
+        -font "./pt-serif-bold.ttf" \
         -fill "$color" \
         label:"$text" \
         -composite \
