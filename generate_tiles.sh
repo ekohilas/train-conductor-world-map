@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 overwrite="true"
 
 main()
@@ -25,13 +27,15 @@ main()
         exit 1
     fi
 
-    magick_version="$(convert -version | head -1 | cut -d ' ' -f 3 | cut -d '.' -f 1)"
-    if [ "$magick_version" -lt 7 ]
+    magick_version="$(magick -version)"
+    magick_version_parsed="$(magick -version | head -1 | cut -d ' ' -f 3 | cut -d '.' -f 1)"
+    if [ "$magick_version_parsed" -lt 7 ]
     then
-        echo "Warning: Detected a version of ImageMagick older than 7. This script was tested with ImageMagick version 7.1.0-19 and may not run correctly."
+        echo "Warning: Found ImageMagick version '$magick_version' which is older than 7. This script was tested with ImageMagick version 7.1.0-19 and may not run correctly."
+        exit 1
     fi
 
-    delegates="$(convert -version | grep "Delegates.*png")"
+    delegates="$(magick -version | grep "Delegates.*png")"
     if [ "$?" -ne 0 ]
     then
         echo "Warning: Detected missing png delegate. This script may not work correctly. The following delegates were found:"
@@ -201,7 +205,7 @@ generate_straight_planks()
         paths="$paths $path"
     done
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas:none \
         -stroke "$color_plank" \
@@ -242,7 +246,7 @@ generate_straight_rails()
     rail_width_to_size_ratio="( $rail_width_original / $width_original )"
     rail_width="$(echo "scale=6; ( $rail_width_to_size_ratio * $height )" | bc)"
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas:none \
         -stroke "$color_rail" \
@@ -278,7 +282,7 @@ generate_curve_track()
     width=${image_size% *}
     height=${image_size#* }
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas: \
         -channel G \
@@ -287,7 +291,7 @@ generate_curve_track()
         -strip \
         "$map_p_angle"
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas: \
         -channel G \
@@ -324,7 +328,7 @@ generate_curve_planks()
 
     log "Generating base curve planks..."
 
-    convert "$base_straight_planks" \
+    magick "$base_straight_planks" \
         "$map_p_angle" \
         "$map_p_radius" \
         -channel RGBA \
@@ -363,7 +367,7 @@ generate_curve_rails()
     #    -threshold 20% \
     #    +channel \
     # -channel RGBA and .g is needed to handle transparent images
-    convert "$base_straight_rails" \
+    magick "$base_straight_rails" \
         "$map_p_angle" \
         "$map_p_radius" \
         -channel RGBA \
@@ -412,7 +416,7 @@ generate_straight_connection()
     connection_width="$(echo "scale=6; ( ( $rail_width / 2 + $center_rail_offset_from_center ) * 2)" | bc)"
     connection_center_y="$(echo "scale=6; ( $height / 2 - 0.5 )" | bc)"
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas:none \
         -stroke "$color_connection" \
@@ -445,7 +449,7 @@ generate_curve_connection()
     width=${image_size% *}
     height=${image_size#* }
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas: \
         -channel G \
@@ -454,7 +458,7 @@ generate_curve_connection()
         -strip \
         "$map_p_angle"
 
-    convert \
+    magick \
         -size "${width}x${height}" \
         canvas: \
         -channel G \
@@ -463,7 +467,7 @@ generate_curve_connection()
         -strip \
         "$map_p_radius"
 
-    convert "$base_straight_connection" \
+    magick "$base_straight_connection" \
         "$map_p_angle" \
         "$map_p_radius" \
         -channel RGBA \
@@ -655,7 +659,7 @@ generate_environment()
         add_environment_shape_path "$x_position" "$y_position" "$shape_radius"
     fi
 
-    convert \
+    magick \
         -size "${height}x${width}" \
         canvas:"$color" \
         +antialias \
@@ -708,7 +712,7 @@ generate_location()
     # .5 is needed to be used to get the right circle size, transposing didn't work.
     # pointsize is needed to be used as specifying a boundary size made less font bigger
     # composite is needed to draw the text
-    convert \
+    magick \
         -background "$color" \
         +antialias \
         "$base_straight_planks" \
@@ -840,7 +844,7 @@ generate_track()
         $down_right_rails 
         $up_left_rails"
 
-    convert \
+    magick \
         -background "$color" \
         $planks \
         $rails \
@@ -930,7 +934,7 @@ generate_connection()
         $down_right_connection 
         $up_left_connection"
 
-    convert \
+    magick \
         -background none \
         $connections \
         -layers flatten \
